@@ -838,368 +838,708 @@ const HERO_SOURCES = [
 
 /* ─────────── articles ─────────── */
 const ARTICLES = [
-{
-  history:[{date:"4 Aug 2026",note:"Replaced the melasma comparison with the actual head-to-head trial (Navarrete-Sol\u00eds 2011). Earlier wording overstated how far hydroquinone beat niacinamide."},{date:"4 Aug 2026",note:"Removed two product recommendations above 5%, which contradicted the article\u2019s own argument."}],
-  slug:"niacinamide", grade:"B", topic:"Ingredients", read:"8 min", updated:"4 August 2026",
-  title:"Niacinamide: what it actually does, one claim at a time",
-  dek:"It's in everything, it costs very little, and the bottle promises considerably more than the studies deliver.",
-  glance:[
-    {k:"Barrier repair",g:"B",v:"Genuinely helps. This is the reason to use it."},
-    {k:"Dark spots",g:"B",v:"Real, but slow and modest. Not a melasma treatment."},
-    {k:"Oiliness",g:"C",v:"One small study at 2%. Widely quoted, rarely repeated."},
-    {k:"Wrinkles",g:"C",v:"Measurable by machine. Invisible in a mirror."},
-    {k:"Tolerability",g:"A",v:"Very well tolerated up to 5%. Almost nobody reacts."}
-  ],
-  body:`
-<p>Niacinamide is the beige cardigan of skincare. It goes with everything, it never causes a scene, and most people aren't entirely sure what it's for.</p>
-<p>The bottle usually claims it handles pores, pigment, oil, fine lines, redness and your skin barrier. That's a lot of jobs for one small molecule. Some of it holds up beautifully. Some of it is one small study wearing a very convincing trench coat.</p>
-
-<h2>The claim worth buying it for</h2>
-<p>Think of your skin's outer layer as a brick wall. The cells are the bricks. The greasy stuff packed between them is the mortar. When the mortar runs thin, water escapes, irritants sneak in, and your face starts reacting to products it happily tolerated last month.</p>
-<p>Niacinamide is one of the raw materials your skin uses to make more mortar. Supply more, and it builds more. When researchers applied it to real human skin under controlled conditions, mortar levels rose and water loss dropped, with the effect showing up in about four weeks.<button class="ref" data-ref="1" aria-expanded="false">1</button></p>
-<p>This is the strongest thing niacinamide does. It is also, reliably, printed in the smallest font on the box.</p>
-<h3>What that means in practice</h3>
-<ul>
-<li>If your skin stings, flakes, or has recently turned on you, this is your ingredient.</li>
-<li>If you're chasing glow, it's a supporting actor, not the lead.</li>
-<li>It works while you use it and stops when you stop. It's upkeep, not a cure.</li>
-</ul>
-
-<h2>The claim that's real but oversold</h2>
-<p>Pigment gets made in one type of cell and handed to its neighbours, a bit like passing a parcel down a row. Niacinamide doesn't stop the parcel being made. It makes the handover clumsier. Less pigment arrives at the surface, so spots fade.</p>
-<p>That's a genuine effect and it beat a placebo when researchers treated one half of people's faces and left the other half alone for eight weeks.<button class="ref" data-ref="2" aria-expanded="false">2</button></p>
-<p>Here's the honest part, which is a comparison. Against nothing, niacinamide wins. Against the prescription options used for melasma, it generally doesn't.<button class="ref" data-ref="3" aria-expanded="false">3</button> If something is being sold to you for dark spots on the strength of niacinamide alone, you're being sold its second-best trick at its best-trick price.</p>
-
-<blockquote>A result can be real, repeatable, and still far too small for anyone to notice in a mirror. Those are three separate questions, and adverts only ever answer the first one.</blockquote>
-
-<h2>The two claims that are thinner than they look</h2>
-<p>The oil-control reputation traces back largely to one study using 2% niacinamide in a small group of people.<button class="ref" data-ref="4" aria-expanded="false">4</button> It's a perfectly reasonable study. It's also a single one, at a lower strength than most serums use, and nobody has repeated it at anything like the scale the marketing implies.</p>
-<p>Wrinkles are a similar story. The famous 12-week study did find improvements in fine lines and texture compared with a placebo cream — but the changes were small, picked up mostly by instruments rather than eyes, and the research was funded by a company that sells the ingredient.<button class="ref" data-ref="5" aria-expanded="false">5</button> We grade that C. Not because it's wrong. Because nobody independent has checked.</p>
-
-<h2>The 10% question</h2>
-<p>Almost all the trial data sits between 2% and 5%. Above that, evidence of extra benefit thins out while reports of stinging go up — and the high-percentage products that caused a wave of complaints a few years back were generally 10% or more.</p>
-<p>We could not find a single published trial showing 10% beats 5% at anything. Until one exists, 5% is the sensible ceiling, and paying extra for double the concentration is paying extra for a bigger number.</p>
-
-<div class="callout">
-<p class="eyebrow">Commonly misread</p>
-<p>Nicotinamide tablets, at 500&nbsp;mg twice a day, reduced new skin cancers in people at high risk in a large trial.<button class="ref" data-ref="6" aria-expanded="false">6</button> That's a strong result — for a tablet, in people who'd already had multiple skin cancers, at a dose no serum comes close to. It is not evidence that your niacinamide serum prevents skin cancer. Sunscreen does that job.</p>
-</div>
-
-<h2>The short version</h2>
-<p><strong>Barrier:</strong> yes, and it's cheap. <strong>Dark spots:</strong> a bit, slowly, be patient. <strong>Oil:</strong> maybe. <strong>Wrinkles:</strong> put the money towards a retinoid instead. <strong>Strength:</strong> 4&ndash;5% is plenty.</p>`,
-  refs:[
-    {grade:"B",authors:"Tanno O, Ota Y, Kitamura N, et al.",title:"Nicotinamide increases biosynthesis of ceramides as well as other stratum corneum lipids to improve the epidermal permeability barrier.",journal:"British Journal of Dermatology",year:"2000",design:"Cell-culture work plus topical application in humans",note:"Kanebo (industry) laboratory; barrier effect in people measured as water loss, not appearance",pmid:"10971324",doi:"10.1111/j.1365-2133.2000.03705.x"},
-    {grade:"B",authors:"Hakozaki T, Minwalla L, Zhuang J, et al.",title:"The effect of niacinamide on reducing cutaneous pigmentation and suppression of melanosome transfer.",journal:"British Journal of Dermatology",year:"2002",design:"Split-face, vehicle-controlled",note:"Procter \u0026 Gamble authors; industry-funded",pmid:"12100180",doi:"10.1046/j.1365-2133.2002.04834.x"},
-    {grade:"B",authors:"Navarrete-Sol\u00eds J, Castanedo-C\u00e1zares JP, Torres-\u00c1lvarez B, et al.",title:"A double-blind, randomized clinical trial of niacinamide 4% versus hydroquinone 4% in the treatment of melasma.",journal:"Dermatology Research and Practice",year:"2011",design:"Split-face RCT, n=27, 8 weeks",note:"University-funded, no declared industry interest",pmid:"21822427",doi:"10.1155/2011/379173"},
-    {grade:"C",authors:"Draelos ZD, Matsubara A, Smiles K.",title:"The effect of 2% niacinamide on facial sebum production.",journal:"Journal of Cosmetic and Laser Therapy",year:"2006",design:"Two small vehicle-controlled studies, Japanese and US groups",note:"Procter \u0026 Gamble authors; not widely repeated since",pmid:"16766489",doi:"10.1080/14764170600717704"},
-    {grade:"C",authors:"Bissett DL, Oblong JE, Berge CA.",title:"Niacinamide: a B vitamin that improves aging facial skin appearance.",journal:"Dermatologic Surgery",year:"2005",design:"Split-face, vehicle-controlled, n=50, 12 weeks",note:"Procter \u0026 Gamble authors; industry-funded",pmid:"16029679",doi:"10.1111/j.1524-4725.2005.31732"},
-    {grade:"A",authors:"Chen AC, Martin AJ, Choy B, et al.",title:"A phase 3 randomized trial of nicotinamide for skin-cancer chemoprevention.",journal:"New England Journal of Medicine",year:"2015",design:"Phase 3 RCT, n=386, 12 months",note:"Oral tablets at 500\u00a0mg twice daily, not a topical serum",pmid:"26488693",doi:"10.1056/NEJMoa1506197"}
-  ],
-  products:[
-    {brand:"Beauty of Joseon",name:"Glow Serum: Propolis + Niacinamide",price:"Budget",
-     url:"https://beautyofjoseon.com/products/glow-serum-propolis-niacinamide",
-     why:"2% niacinamide, stated openly on the brand's own page. That sits at the bottom of the evidenced range, which is the right place to start if you have never used it or your skin reacts to everything.",
-     flag:"Also contains 0.5% BHA, so it is doing two jobs at once. If your barrier is already struggling, start with something simpler."},
-    {brand:"CeraVe",name:"PM Facial Moisturising Lotion",price:"Budget",
-     url:"https://www.cerave.com/skincare/moisturizers/pm-facial-moisturizing-lotion",
-     why:"Niacinamide sits fourth on the ingredient list alongside three ceramides and cholesterol \u2014 which is the pairing the barrier evidence actually supports, rather than niacinamide on its own. Cheap enough to use generously.",
-     flag:"CeraVe does not publish the percentage. Independent estimates put it around 3\u20134%, inside the evidenced range, but you are trusting an estimate."},
-    {brand:"EltaMD",name:"UV Clear Broad Spectrum SPF 46",price:"Premium",
-     url:"https://eltamd.com/products/uv-clear-broad-spectrum-spf-46",
-     why:"5% niacinamide, stated by the brand, in a sunscreen. That is the top of the evidenced range attached to the one product with better evidence than niacinamide itself, which makes it the most efficient way to get both.",
-     flag:""}
-  ]
-},
-{
-  history:[{date:"28 Jul 2026",note:"Added the specific application-quantity figures (0.39\u20131.0 mg/cm\u00b2) from Petersen & Wulf rather than describing them loosely."}],
-  slug:"sunscreen-reapplication", grade:"A", topic:"Sun protection", read:"9 min", updated:"28 July 2026",
-  title:"Your sunscreen is probably working at half strength",
-  dek:"The number on the bottle is measured under laboratory conditions nobody reproduces in a bathroom. Here's the gap, and how to close it.",
-  glance:[
-    {k:"Does sunscreen work",g:"A",v:"Yes. Trials show it prevents both skin ageing and skin cancers."},
-    {k:"How much people apply",g:"A",v:"Roughly a quarter to a half of the tested amount."},
-    {k:"What that costs you",g:"B",v:"Real protection lands well below the labelled number."},
-    {k:"Reapplication",g:"B",v:"Matters more than upgrading from SPF 30 to 50."},
-    {k:"Chemical vs mineral",g:"A",v:"Both work. Use whichever you'll actually put on."}
-  ],
-  body:`
-<p>Sunscreen is the single most evidence-backed thing you can put on your face, and almost everybody is using it wrong. Not dramatically wrong. Just quietly, consistently, everyday wrong, in a way that turns an SPF 50 into something closer to an SPF 15.</p>
-
-<h2>Where the number comes from</h2>
-<p>To earn an SPF rating, a sunscreen is tested at a standard thickness: 2 milligrams for every square centimetre of skin. That is a lot more product than it sounds. On an average adult face and neck, it works out at roughly a third of a teaspoon — a visible, slightly ridiculous amount that sits on the skin for a minute before it sinks in.</p>
-<p>Study after study finds that real people apply somewhere between a quarter and a half of that.<button class="ref" data-ref="1" aria-expanded="false">1</button> Not because they're careless. Because the tested amount looks and feels like too much, and nobody ever told them otherwise.</p>
-<p>The unhelpful part is that protection doesn't drop off in a straight line. Halve the amount and you don't get half the SPF — you get considerably less than half. An SPF 50 applied at half thickness behaves far more like an SPF 15 than an SPF 25.</p>
-
-<blockquote>The most effective sunscreen upgrade available to you is free. Use more of the one you already own.</blockquote>
-
-<h2>So does it actually prevent anything?</h2>
-<p>This is the part worth being clear about, because sunscreen gets an unusual amount of internet suspicion for something with genuinely strong evidence behind it.</p>
-<p>In a long-running randomised trial in Queensland, adults assigned to daily sunscreen developed fewer squamous cell carcinomas than those left to their usual habits, and follow-up years later showed a reduction in melanoma too.<button class="ref" data-ref="2" aria-expanded="false">2</button> The same trial population showed measurably less skin ageing in the daily-sunscreen group.<button class="ref" data-ref="3" aria-expanded="false">3</button></p>
-<p>That is a randomised controlled trial with hard clinical endpoints. In skincare, that is close to unheard of. Almost nothing else on your shelf has anything like it.</p>
-
-<h2>Reapplication, and why the two-hour rule exists</h2>
-<p>Sunscreen doesn't expire on your face at the two-hour mark like a parking ticket. It degrades gradually — some filters break down in light, and the rest gets rubbed, sweated and wiped away. Two hours is a practical rule of thumb for time spent outdoors, not a chemical deadline.</p>
-<p>If you're at a desk all day, away from windows, you are not meaningfully losing protection every two hours. If you're outside, swimming, sweating or touching your face, you are, and the rule is a good one.</p>
-<h3>A realistic routine</h3>
-<ul>
-<li>Two fingers' length of product for face and neck. Yes, that much.</li>
-<li>Apply before you leave, not in the car with one hand on the wheel.</li>
-<li>Outdoors, reapply every two hours. Indoors, once in the morning is generally fine.</li>
-<li>Ears, eyelids, hairline and the back of the neck. Skin cancers turn up in all four.</li>
-</ul>
-
-<h2>The arguments you can safely ignore</h2>
-<p>Mineral versus chemical filters generate enormous online heat and very little practical difference. Both types work. Both are regulated. The one that protects you best is the one whose texture you don't hate, because that's the one you'll reapply.</p>
-<p>The absorption question deserves one honest sentence: some chemical filters are measurably absorbed into the bloodstream, which regulators have asked manufacturers to study further.<button class="ref" data-ref="4" aria-expanded="false">4</button> Detecting something in blood is not the same as showing it causes harm, and no such harm has been demonstrated. Meanwhile, the harm from ultraviolet light is not in question at all.</p>
-
-<h2>The short version</h2>
-<p>Use more than feels sensible. Reapply when you're outdoors. Pick a texture you enjoy. Stop worrying about which filter type you've bought, and start worrying about whether you've put on enough of it.</p>`,
-  refs:[
-    {grade:"A",authors:"Petersen B, Wulf HC.",title:"Application of sunscreen \u2014 theory and reality.",journal:"Photodermatology, Photoimmunology & Photomedicine",year:"2014",design:"Literature review of application-quantity studies",note:"Found real-world application of 0.39\u20131.0 mg/cm\u00b2 against a 2 mg/cm\u00b2 testing standard",pmid:"24313722",doi:"10.1111/phpp.12099"},
-    {grade:"A",authors:"Green AC, Williams GM, Logan V, Strutton GM.",title:"Reduced melanoma after regular sunscreen use: randomized trial follow-up.",journal:"Journal of Clinical Oncology",year:"2011",design:"RCT, n=1,621, followed 10 years after the trial ended",note:"The Nambour trial. Overall melanoma reduction just missed significance; the drop in invasive melanoma did not",pmid:"21135266",doi:"10.1200/JCO.2010.28.7078"},
-    {grade:"A",authors:"Hughes MCB, Williams GM, Baker P, Green AC.",title:"Sunscreen and prevention of skin aging: a randomized trial.",journal:"Annals of Internal Medicine",year:"2013",design:"RCT, n=903, 4.5 years",note:"Same Nambour population. Skin ageing was 24% lower in the daily-sunscreen group",pmid:"23732711",doi:"10.7326/0003-4819-158-11-201306040-00002"},
-    {grade:"B",authors:"Matta MK, Florian J, Zusterzeel R, et al.",title:"Effect of sunscreen application on plasma concentration of sunscreen active ingredients.",journal:"JAMA",year:"2020",design:"Randomised clinical trial, n=48, maximal-use conditions",note:"Run by FDA scientists. Measured absorption only; did not assess harm",pmid:"31961417",doi:"10.1001/jama.2019.20747"}
-  ],
-  products:[
-    {brand:"Beauty of Joseon",name:"Relief Sun: Rice + Probiotics SPF50+",price:"Budget",
-     url:"https://beautyofjoseon.com/products/relief-sun-rice-probiotics",
-     why:"Light enough that you will apply a proper amount rather than a polite smear, and cheap enough that reapplying doesn't feel like burning money. Both of those matter more than the SPF number.",
-     flag:"Uses filters approved in Korea and the EU but not all of them in the US. Check what is legally sold where you are."},
-    {brand:"EltaMD",name:"UV Clear Broad Spectrum SPF 46",price:"Premium",
-     url:"https://eltamd.com/products/uv-clear-broad-spectrum-spf-46",
-     why:"Zinc oxide plus 5% niacinamide, which suits acne-prone and rosacea-prone skin that tends to hate heavier sunscreens. The most-recommended option among dermatologists for a reason.",
-     flag:""},
-    {brand:"La Roche-Posay",name:"Cicaplast Balm B5 UV SPF 50",price:"Mid",
-     url:"https://www.laroche-posay.us/our-products/body/body-lotion/cicaplast-balm-b5-uv-spf-50-3606000621992.html",
-     why:"For the specific situation where your barrier is wrecked and you still need sun protection \u2014 after a peel, a laser, or an over-enthusiastic retinoid week. Does both jobs without stinging.",
-     flag:""}
-  ]
-},
-{
-  history:[{date:"19 Jul 2026",note:"Flagged the petrolatum occlusive claim as unsourced. We could not verify a specific primary study and will not cite one we have not read."}],
-  slug:"barrier-creams", grade:"B", topic:"Products", read:"7 min", updated:"19 July 2026",
-  title:"Barrier creams: the ratio matters more than the ingredient list",
-  dek:"Ceramides get all the marketing. The research says it's the proportions that do the work — and the wrong proportions can slow healing down.",
-  glance:[
-    {k:"Ceramides alone",g:"B",v:"Less effective than a balanced mixture. Sometimes worse than nothing."},
-    {k:"Balanced lipid blends",g:"B",v:"Speed up barrier recovery in controlled testing."},
-    {k:"Petrolatum",g:"A",v:"Unglamorous, very cheap, extremely effective."},
-    {k:"Glycerin",g:"A",v:"Boring, well-proven, in almost every decent moisturiser."},
-    {k:"'Skin-identical' marketing",g:"D",v:"A phrase, not a finding."}
-  ],
-  body:`
-<p>Every moisturiser now advertises ceramides. They appear in serums, cleansers, lip balms and, at time of writing, at least one brand of socks. The ingredient is real and it matters. The way it's sold is mostly nonsense.</p>
-
-<h2>The mortar, again</h2>
-<p>Back to the brick wall. Between your skin cells sits a mixture of three fatty substances: ceramides, cholesterol and free fatty acids. Together they form the mortar that keeps water in and irritants out.</p>
-<p>Here's the bit the adverts skip. Researchers found that you can't simply pour in more of one and expect improvement. When they applied incomplete mixtures to damaged skin, recovery slowed down. Balanced mixtures, containing all three in sensible proportions, sped it up.<button class="ref" data-ref="1" aria-expanded="false">1</button></p>
-<p>The finding is the ratio, not the ingredient. A cream boasting about ceramides while containing nothing else useful is advertising one brick and calling it a house.</p>
-
-<h2>The ingredient that beats almost everything and gets no credit</h2>
-<p>Petrolatum reduces water loss through skin by a very large margin, costs almost nothing, and has one of the longest safety records in dermatology.<button class="ref" data-ref="2" aria-expanded="false">2</button> It has no ceramides, no peptides and no story. It just works.</p>
-<p>It's greasy, which is its entire public relations problem. Used as a final layer at night — the technique people online call slugging — it's one of the most reliable things you can do for a wrecked barrier, and a tub costs less than a coffee.</p>
-
-<blockquote>An ingredient's marketing budget and its evidence base are almost entirely unrelated. Sometimes they're inversely related.</blockquote>
-
-<h2>How to read a moisturiser</h2>
-<p>Decent barrier repair creams tend to combine three kinds of ingredient, and most good ones aren't shy about it:</p>
-<ul>
-<li><strong>Humectants</strong> pull water in. Glycerin, hyaluronic acid, urea. Glycerin is the workhorse and it's in nearly everything.</li>
-<li><strong>Emollients</strong> smooth the surface and fill the gaps. Squalane, fatty acids, plant oils.</li>
-<li><strong>Occlusives</strong> seal it all in. Petrolatum, dimethicone, shea butter.</li>
-</ul>
-<p>A cream with all three, in a boring white tub, will outperform a beautifully packaged serum containing one fashionable lipid and a lot of water.</p>
-
-<div class="callout">
-<p class="eyebrow">Worth knowing</p>
-<p>Humectants pull water from wherever they can find it. In very dry air, hyaluronic acid applied to bare skin and left unsealed can draw moisture <em>out</em> of the deeper layers rather than in from the environment. Apply it to slightly damp skin and put something on top. This is the single most common reason people report that hyaluronic acid "makes my skin drier."</p>
-</div>
-
-<h2>What we'd actually tell you</h2>
-<p>If your barrier is damaged, simplify ruthlessly. Stop the acids and retinoids for a fortnight. Use a gentle cleanser, a boring cream with all three ingredient types, and petrolatum at night. Most barriers repair themselves within two to four weeks if you get out of their way.</p>
-<p>If it doesn't settle in a month, or if it's weeping, cracking or spreading, that's a conversation with a doctor rather than a shopping problem. Eczema and contact dermatitis both masquerade as a damaged barrier and neither is fixed by a nicer moisturiser.</p>`,
-  refs:[
-    {grade:"B",authors:"Man MQ, Feingold KR, Thornfeldt CR, Elias PM.",title:"Optimization of physiological lipid mixtures for barrier repair.",journal:"Journal of Investigative Dermatology",year:"1996",design:"Controlled experimental study, mostly murine skin",note:"The foundational ratio work. Human results were preliminary and reported only briefly",pmid:"8618046",doi:"10.1111/1523-1747.ep12340135"},
-    {grade:"B",authors:"Ghadially R, Halkier-S\u00f8rensen L, Elias PM.",title:"Effects of petrolatum on stratum corneum structure and function.",journal:"Journal of the American Academy of Dermatology",year:"1992",design:"Controlled application in human volunteers, plus microscopy",note:"Found petrolatum speeds barrier recovery rather than merely sealing it. The widely quoted \u2018reduces water loss by 98%\u2019 figure is not from this paper and we have not traced it to one",pmid:"1564142",doi:"10.1016/0190-9622(92)70060-s"}
-  ],
-  products:[
-    {brand:"CeraVe",name:"Moisturising Cream",price:"Budget",
-     url:"https://www.cerave.com/skincare/moisturizers/moisturizing-cream",
-     why:"Glycerin, petrolatum, three ceramides and cholesterol in one unexciting tub \u2014 humectant, emollient and occlusive all present, which is the whole checklist. Does the job far more expensive creams claim to do.",
-     flag:""},
-    {brand:"CeraVe",name:"Healing Ointment",price:"Budget",
-     url:"https://www.cerave.com/skincare/moisturizers/healing-ointment",
-     why:"Petrolatum-based, so it seals like petroleum jelly, with ceramides added and a slightly less greasy finish. Use it as a final night layer over your moisturiser when the barrier is badly damaged.",
-     flag:"Plain petroleum jelly is cheaper and seals just as well. You are paying for the ceramides and the texture, not for better occlusion."},
-    {brand:"La Roche-Posay",name:"Cicaplast Baume B5+",price:"Mid",
-     url:"https://www.laroche-posay.us/our-products/body/body-lotion/cicaplast-balm-b5-cicaplast-balm-b5-uv-with-spf-50-set-cicabalmcicabalmuvset.html",
-     why:"Designed for compromised and post-procedure skin, and pleasant enough to actually use on your face during a bad fortnight rather than abandoning halfway.",
-     flag:"The official link is a set with the SPF version. Buy the single balm from any stockist if you don't need both."}
-  ]
-},
-{
-  history:[{date:"9 Jul 2026",note:"Collagen peptides downgraded from Grade B to Grade C after the 2025 meta-analysis found the effect disappears in independently funded trials."},{date:"9 Jul 2026",note:"Biotin claim now cites the FDA safety communication directly."}],
-  slug:"supplements", grade:"C", topic:"Holistic health", read:"11 min", updated:"9 July 2026",
-  title:"Skin supplements: the few that hold up, and the many that don't",
-  dek:"One has genuinely strong evidence. One we have just downgraded. One is worth avoiding before a blood test. The rest are expensive urine.",
-  glance:[
-    {k:"Collagen peptides",g:"C",v:"Effect vanishes in independently funded trials. Downgraded from B."},
-    {k:"Nicotinamide tablets",g:"A",v:"Strong evidence — for people at high skin cancer risk."},
-    {k:"Omega-3",g:"C",v:"Plausible for inflammatory conditions. Data is mixed."},
-    {k:"Zinc",g:"C",v:"Some acne evidence. Easy to overdo."},
-    {k:"Biotin",g:"D",v:"No benefit unless deficient, and it skews blood tests."}
-  ],
-  body:`
-<p>The supplement aisle is where good evidence goes to be quoted out of context. Almost every bottle can point to a study. Very few can point to a good one, and fewer still to a good one that wasn't paid for by the company selling the bottle.</p>
-<p>Here's the honest sorting.</p>
-
-<h2>The one with genuinely strong evidence — for a specific group</h2>
-<p>Nicotinamide, taken as a tablet at 500&nbsp;mg twice daily, reduced new skin cancers in a large randomised trial of people who had already had several.<button class="ref" data-ref="1" aria-expanded="false">1</button> That's a proper Grade A result with a hard clinical endpoint.</p>
-<p>The catch is who it's for. The trial recruited people at high risk, and the benefit was measured in that population. If you've never had a skin cancer, this trial doesn't tell you much about your odds, and it's a conversation to have with a dermatologist rather than a supermarket shelf.</p>
-
-<h2>The one we got wrong, and had to downgrade</h2>
-<p>Collagen peptides were, for years, easy to mock. Eat collagen, digest it into amino acids like any other protein, achieve nothing — that was the reasonable prediction.</p>
-<p>The trials appeared not to cooperate. A 2021 review pooled the clinical trials together and found improvements in skin hydration and elasticity.<button class="ref" data-ref="2" aria-expanded="false">2</button> On that basis we originally graded collagen B, and said so.</p>
-<p>Then a 2025 meta-analysis did something the earlier ones had not: it sorted the 23 trials by <em>who paid for them</em>. Pooled together, the benefit was still there. Split apart, trials funded by supplement companies showed clear benefits — and trials without industry funding showed no effect on hydration, elasticity or wrinkles. None. The same split appeared when studies were sorted by methodological quality instead of funding.<button class="ref" data-ref="3" aria-expanded="false">3</button></p>
-<p>So we have downgraded collagen peptides from B to C. The positive signal is real, and it lives almost entirely in trials run by people who sell collagen. Collagen manufacturers have publicly disputed how that analysis classified some studies, which is worth knowing and does not resolve the pattern.</p>
-
-<blockquote>This is what grading is for. A number that moves the moment someone checks who paid for the research was never a solid number.</blockquote>
-
-<h2>The plausible ones</h2>
-<p>Omega-3 fatty acids have reasonable mechanistic logic and genuinely mixed human results in acne and psoriasis.<button class="ref" data-ref="4" aria-expanded="false">4</button> Some trials find benefit, some find nothing. If you eat very little oily fish, supplementing is sensible for reasons that have nothing to do with your face.</p>
-<p>Zinc has some acne evidence, generally weaker than standard treatments and generally at doses that cause nausea. It also competes with copper absorption over the long term. It's a reasonable adjunct, not a plan.</p>
-
-<div class="callout">
-<p class="eyebrow">Please read this one</p>
-<p>High-dose biotin — the hair, skin and nails staple — does nothing for skin unless you have a genuine deficiency, which is rare. More importantly, it interferes with a wide range of common laboratory blood tests, including thyroid function and the troponin test used to diagnose heart attacks. The US Food and Drug Administration has warned about this twice, and says it kept receiving reports of falsely low troponin results after the first warning.<button class="ref" data-ref="5" aria-expanded="false">5</button> If you take biotin, tell whoever draws your blood, and stop several days before any planned test.</p>
-</div>
-
-<h2>The ones with nothing behind them</h2>
-<p>Marine collagen marketed as superior to bovine, "beauty waters", chlorophyll drops, and most multi-ingredient beauty gummies fall into a category we'd describe as Grade D at best: a plausible-sounding mechanism, no human trial, and a price that assumes you won't check.</p>
-<p>Gummies deserve a specific mention. To taste acceptable they need sugar, and to fit in a gummy the active doses are usually well below anything ever tested.</p>
-
-<h2>The short version</h2>
-<p>Eat properly. If you've had multiple skin cancers, ask a dermatologist about nicotinamide. Collagen peptides are defensible if you have spare money and modest expectations. Tell your doctor about biotin. Everything else can wait until someone runs a trial that isn't funded by the people selling it.</p>`,
-  refs:[
-    {grade:"A",authors:"Chen AC, Martin AJ, Choy B, et al.",title:"A phase 3 randomized trial of nicotinamide for skin-cancer chemoprevention.",journal:"New England Journal of Medicine",year:"2015",design:"Phase 3 RCT, n=386, 12 months",note:"High-risk population only \u2014 everyone enrolled had already had at least two skin cancers",pmid:"26488693",doi:"10.1056/NEJMoa1506197"},
-    {grade:"B",authors:"de Miranda RB, Weimer P, Rossi RC.",title:"Effects of hydrolyzed collagen supplementation on skin aging: a systematic review and meta-analysis.",journal:"International Journal of Dermatology",year:"2021",design:"Systematic review and meta-analysis of clinical trials",note:"Pooled all trials together without separating by funding source",pmid:"33742704",doi:"10.1111/ijd.15518"},
-    {grade:"A",authors:"Myung SK, Park Y.",title:"Effects of collagen supplements on skin aging: a systematic review and meta-analysis of randomized controlled trials.",journal:"The American Journal of Medicine",year:"2025",design:"Meta-analysis of 23 RCTs, n=1,474",note:"Authors declared no funding and no conflict of interest",pmid:"40324552",doi:"10.1016/j.amjmed.2025.04.034"},
-    {grade:"C",authors:"SOURCE NEEDED",title:"Omega-3 supplementation in inflammatory skin conditions.",journal:"Not yet sourced",year:"\u2014",design:"\u2014",note:"We could not verify a specific review for this claim. Treat it as unsourced until we do.",pmid:"",doi:""},
-    {grade:"B",authors:"U.S. Food and Drug Administration.",title:"UPDATE: the FDA warns that biotin may interfere with lab tests \u2014 FDA safety communication.",journal:"FDA Safety Communication, 5 November 2019",year:"2019",design:"Regulatory safety communication",note:"Follows the original 2017 communication; FDA continued receiving reports of falsely low troponin results",pmid:"",doi:"",url:"https://www.fda.gov/medical-devices/safety-communications/update-fda-warns-biotin-may-interfere-lab-tests-fda-safety-communication"}
-  ],
-  products:[]
-},
-{
-  history:[{date:"1 Jul 2026",note:"Softened the depth guidance from a firm 1.5\u20132.0 mm range to \u2018deep enough to reach the dermis\u2019. The only direct depth comparison we found had 14 participants."}],
-  slug:"microneedling", grade:"B", topic:"Treatments", read:"9 min", updated:"1 July 2026",
-  title:"Microneedling for acne scars: depth is the whole conversation",
-  dek:"The trials that show real improvement used depths and session counts that home rollers cannot reach. That's not a detail — it's the mechanism.",
-  glance:[
-    {k:"Rolling scars",g:"B",v:"Clear improvement in controlled trials. Not erasure."},
-    {k:"Ice-pick scars",g:"C",v:"Responds poorly. Needs different treatment."},
-    {k:"Depth that works",g:"C",v:"Deep enough to reach the dermis. Exact optimum unsettled."},
-    {k:"Home rollers",g:"D",v:"Usually 0.25–0.5 mm. Below the depth that was studied."},
-    {k:"Sessions needed",g:"B",v:"Typically three to six, a month apart."}
-  ],
-  body:`
-<p>Microneedling is one of the few in-clinic treatments where the evidence is decent, the mechanism makes sense, and the home version has almost nothing to do with the thing that was tested.</p>
-
-<h2>Why controlled injury helps</h2>
-<p>An atrophic acne scar is a small dent — a patch where the skin healed with less collagen than it started with. You cannot fill a dent by moisturising it.</p>
-<p>Microneedling makes hundreds of tiny, controlled punctures that trigger a wound-healing response. Your body lays down new collagen while repairing them, and over several rounds the floor of the scar rises. It's a slow rebuild, not a resurfacing.</p>
-<p>Randomised trials in atrophic acne scarring consistently show meaningful improvement in scar severity scores after a course of treatment.<button class="ref" data-ref="1" aria-expanded="false">1</button> Not perfect skin. Meaningful improvement, which for deep scarring is a substantial result.</p>
-
-<h2>The number that decides everything</h2>
-<p>The trials showing benefit use depths that reach the dermis — generally 1.5&nbsp;mm and above — delivered over multiple sessions spaced two to four weeks apart.<button class="ref" data-ref="2" aria-expanded="false">2</button> That is where collagen gets made.</p>
-<p>What the exact optimum is remains unsettled. One split-face study treated both sides of 14 faces, at 2.5&nbsp;mm on one side and 1.5&nbsp;mm on the other, and found the deeper setting worked better.<button class="ref" data-ref="3" aria-expanded="false">3</button> Fourteen people is a very small study, so read that as a hint rather than a protocol.</p>
-<p>Home rollers sold for skincare are typically 0.25 to 0.5&nbsp;mm. That depth doesn't reliably reach the layer that responds. It's not a weaker version of the studied treatment. It's a different thing that shares a name.</p>
-<p>There's a second problem. Rollers drag the needles through skin at an angle rather than entering straight down, and home devices are notoriously difficult to sterilise properly between uses.</p>
-
-<blockquote>If a home device could reach the depth used in the trials, it would need the aftercare, the anaesthetic and the infection control that go with it. The reason it's safe to sell you is the same reason it doesn't work.</blockquote>
-
-<h2>Which scars respond, and which don't</h2>
-<ul>
-<li><strong>Rolling scars</strong> — broad, shallow, wavy. The best responders.</li>
-<li><strong>Boxcar scars</strong> — sharp-edged, shallow to medium. Reasonable response.</li>
-<li><strong>Ice-pick scars</strong> — narrow and deep. Poor response. These usually need a technique that treats each scar individually.</li>
-</ul>
-<p>Most people have a mixture, which is why a good clinician will often combine approaches rather than sell you a single course of anything.</p>
-
-<div class="callout">
-<p class="eyebrow">Before you book</p>
-<p>Treat the acne first. Needling actively inflamed skin can spread bacteria and cause more scarring than it repairs. If you still get regular breakouts, that's the problem to solve first — and it's the cheaper one.</p>
-<p>If you have darker skin, ask specifically about the operator's experience with your skin tone. Any controlled injury carries a risk of post-inflammatory pigmentation, and technique matters enormously here.</p>
-</div>
-
-<h2>Realistic expectations</h2>
-<p>Published trials tend to report scar severity dropping by something in the region of a third to a half over a full course. That's a genuinely good outcome and it is not the same as clear skin. Anyone promising erasure is either selling something or hasn't read the studies.</p>
-<p>Results also keep developing for months after the final session, because collagen remodelling is slow. Judging the outcome at six weeks is judging it too early.</p>
-
-<h2>The short version</h2>
-<p>Worth doing, in a clinic, for rolling and boxcar scars, after your acne is under control, over three to six sessions, with realistic expectations. The roller in your bathroom drawer is doing something closer to nothing.</p>`,
-  refs:[
-    {grade:"B",authors:"Sitohang IBS, Sirait SAP, Suryanegara J.",title:"Microneedling in the treatment of atrophic scars: a systematic review of randomised controlled trials.",journal:"International Wound Journal",year:"2021",design:"Systematic review of RCTs",note:"Authors declared no conflict of interest",pmid:"33538106",doi:"10.1111/iwj.13559"},
-    {grade:"B",authors:"Chen SX, Cheng J, Watchmaker J, et al.",title:"Microneedling monotherapy for acne scar: systematic review and meta-analysis of randomized controlled trials.",journal:"Aesthetic Plastic Surgery",year:"2022",design:"Meta-analysis of 12 RCTs, n=414",note:"",pmid:"35426044",doi:"10.1007/s00266-022-02845-3"},
-    {grade:"C",authors:"El-Domyati M, Moftah NH, Ahmed AM, Ibrahim MR.",title:"Evaluation of microneedling depth of penetration in management of atrophic acne scars: a split-face comparative study.",journal:"International Journal of Dermatology",year:"2024",design:"Split-face comparison, n=14, six sessions",note:"Very small, but no declared funding or conflict. Found 2.5\u00a0mm outperformed 1.5\u00a0mm \u2014 preliminary, not settled",pmid:"38159109",doi:"10.1111/ijd.17006"}
-  ],
-  products:[]
-},
-{
-  history:[{date:"22 Jun 2026",note:"Corrected the probiotics section. We previously implied benefit in eczema; the Cochrane review of 39 trials found little to no effect for treatment."}],
-  slug:"gut-skin", grade:"C", topic:"Holistic health", read:"10 min", updated:"22 June 2026",
-  title:"The gut–skin connection: what's proven, what's plausible, what's invented",
-  dek:"Diet does affect skin. Just not in the way most of the internet says, and not for most of the conditions it gets blamed for.",
-  glance:[
-    {k:"Low-GI diet in acne",g:"B",v:"Reasonable trial evidence for reduced lesion counts."},
-    {k:"Skim milk and acne",g:"C",v:"A consistent association. Cause is not established."},
-    {k:"Probiotics in eczema",g:"A",v:"Cochrane reviewed 39 trials: little to no benefit for treatment."},
-    {k:"Probiotics in acne",g:"C",v:"Early, small, mostly underpowered."},
-    {k:"'Leaky gut' as a diagnosis",g:"D",v:"Not an established clinical condition."}
-  ],
-  body:`
-<p>The gut–skin axis is real. It's also the single most over-claimed idea in wellness skincare, and the gap between the two versions is where a great deal of money changes hands.</p>
-<p>Let's separate them.</p>
-
-<h2>The part with actual trials</h2>
-<p>Diets with a low glycaemic load — fewer foods that spike your blood sugar sharply — have been tested in acne, and randomised trials have found reduced lesion counts compared with typical high-glycaemic diets.<button class="ref" data-ref="1" aria-expanded="false">1</button></p>
-<p>The proposed mechanism is coherent: blood sugar spikes drive insulin, insulin influences hormones that increase oil production and skin cell turnover, and both of those feed acne. It hangs together, and the trials mostly agree.</p>
-<p>This is the strongest diet-and-skin finding there is, and notably it's about the overall shape of what you eat rather than any single villain food.</p>
-
-<h2>The part with an association and no verdict</h2>
-<p>Dairy, and skim milk in particular, shows up repeatedly in studies as associated with acne.<button class="ref" data-ref="2" aria-expanded="false">2</button> The pattern is consistent enough to take seriously and comes almost entirely from observational research — people reporting what they eat and what their skin does.</p>
-<p>That design cannot separate cause from company. People who drink a lot of skim milk differ from people who don't in dozens of other ways. Whole milk, oddly, shows a weaker association than skim, which is the sort of detail that suggests the story isn't finished.</p>
-<p>A reasonable position: if you drink a lot of skim milk and have stubborn acne, cutting it for eight weeks is a cheap experiment. Eliminating all dairy forever on the strength of this is not proportionate.</p>
-
-<blockquote>An association tells you two things arrive together. It does not tell you which one brought the other.</blockquote>
-
-<h2>Probiotics, honestly</h2>
-<p>Here the evidence is clearer than the marketing, and it points the other way. Cochrane — the most conservative reviewers in medicine — pooled 39 randomised trials covering 2,599 people and concluded that probiotics make little to no difference to eczema symptoms, quality of life, or severity as rated by doctors.<button class="ref" data-ref="3" aria-expanded="false">3</button></p>
-<p>Note what that grade means. Grade A here is not “it works”. It is “we know this well” — and what we know well is that it doesn’t do much for treating existing eczema. Prevention in high-risk infants is a separate question with messier data, and one for a paediatrician rather than a supplement aisle.</p>
-<p>One more thing supplement labels erase: probiotic effects are strain-specific. A trial showing benefit for one particular strain says nothing at all about the twelve-strain blend in a different bottle. "Contains probiotics" is roughly as informative as "contains plants".</p>
-<p>In acne, the probiotic research is early, small and underpowered. Interesting. Not yet actionable.</p>
-
-<div class="callout">
-<p class="eyebrow">A word on 'leaky gut'</p>
-<p>Intestinal permeability is a genuine, measurable phenomenon that changes in certain diseases. "Leaky gut syndrome" as a standalone diagnosis, treatable by supplements, causing acne and eczema and fatigue, is not an established clinical condition. If someone offers to test and treat it, ask what the test is and what it's been validated against.</p>
-</div>
-
-<h2>What's worth doing anyway</h2>
-<ul>
-<li>Fewer sharp blood-sugar spikes. This has the best evidence and improves several other things besides your skin.</li>
-<li>Enough fibre and a varied diet. Boring, cheap, broadly good for you.</li>
-<li>If you want to test dairy, test it properly: eight weeks, one variable, and write down what you see.</li>
-<li>Don't cut whole food groups on the strength of a video.</li>
-</ul>
-
-<h2>The short version</h2>
-<p>Diet is one input among several, and it isn't the dominant one for most people. Genetics and hormones do most of the work in acne, and no eating plan out-performs a proper treatment for moderate-to-severe disease. Eat well because it's good for you. Treat your skin because that's what treats your skin.</p>`,
-  refs:[
-    {grade:"B",authors:"Smith RN, Mann NJ, Braue A, Ma\u0308kela\u0308inen H, Varigos GA.",title:"A low-glycemic-load diet improves symptoms in acne vulgaris patients: a randomized controlled trial.",journal:"American Journal of Clinical Nutrition",year:"2007",design:"RCT, n=43 young men, 12 weeks",note:"Funded by Meat \u0026 Livestock Australia. The journal later noted it substantially duplicated the authors\u2019 own JAAD paper. Weight loss could not be separated from the diet effect",pmid:"17616769",doi:"10.1093/ajcn/86.1.107"},
-    {grade:"C",authors:"Juhl CR, Bergholdt HKM, Miller IM, Jemec GBE, Kanters JK, Ellervik C.",title:"Dairy intake and acne vulgaris: a systematic review and meta-analysis of 78,529 children, adolescents, and young adults.",journal:"Nutrients",year:"2018",design:"Meta-analysis of 14 observational studies, n=78,529",note:"Observational only \u2014 shows association, cannot show cause. Odds ratio 1.25 for any dairy",pmid:"30096883",doi:"10.3390/nu10081049"},
-    {grade:"A",authors:"Makrgeorgou A, Leonardi-Bee J, Bath-Hextall FJ, Murrell DF, Tang MLK, Roberts A, Boyle RJ.",title:"Probiotics for treating eczema.",journal:"Cochrane Database of Systematic Reviews",year:"2018",design:"Cochrane review of 39 RCTs, n=2,599",note:"Concluded probiotics make little to no difference for treating eczema",pmid:"30480774",doi:"10.1002/14651858.CD006135.pub3"}
-  ],
-  products:[]
-}
+  {
+    "history": [
+      {
+        "date": "4 Aug 2026",
+        "note": "Replaced the melasma comparison with the actual head-to-head trial (Navarrete-Solís 2011). Earlier wording overstated how far hydroquinone beat niacinamide."
+      },
+      {
+        "date": "4 Aug 2026",
+        "note": "Removed two product recommendations above 5%, which contradicted the article’s own argument."
+      }
+    ],
+    "slug": "niacinamide",
+    "grade": "B",
+    "topic": "Ingredients",
+    "read": "8 min",
+    "updated": "4 August 2026",
+    "title": "Niacinamide: what it actually does, one claim at a time",
+    "dek": "It's in everything, it costs very little, and the bottle promises considerably more than the studies deliver.",
+    "glance": [
+      {
+        "k": "Barrier repair",
+        "g": "B",
+        "v": "Genuinely helps. This is the reason to use it."
+      },
+      {
+        "k": "Dark spots",
+        "g": "B",
+        "v": "Real, but slow and modest. Not a melasma treatment."
+      },
+      {
+        "k": "Oiliness",
+        "g": "C",
+        "v": "One small study at 2%. Widely quoted, rarely repeated."
+      },
+      {
+        "k": "Wrinkles",
+        "g": "C",
+        "v": "Measurable by machine. Invisible in a mirror."
+      },
+      {
+        "k": "Tolerability",
+        "g": "A",
+        "v": "Very well tolerated up to 5%. Almost nobody reacts."
+      }
+    ],
+    "body": "\n<p>Niacinamide is the beige cardigan of skincare. It goes with everything, it never causes a scene, and most people aren't entirely sure what it's for.</p>\n<p>The bottle usually claims it handles pores, pigment, oil, fine lines, redness and your skin barrier. That's a lot of jobs for one small molecule. Some of it holds up beautifully. Some of it is one small study wearing a very convincing trench coat.</p>\n\n<h2>The claim worth buying it for</h2>\n<p>Think of your skin's outer layer as a brick wall. The cells are the bricks. The greasy stuff packed between them is the mortar. When the mortar runs thin, water escapes, irritants sneak in, and your face starts reacting to products it happily tolerated last month.</p>\n<p>Niacinamide is one of the raw materials your skin uses to make more mortar. Supply more, and it builds more. When researchers applied it to real human skin under controlled conditions, mortar levels rose and water loss dropped, with the effect showing up in about four weeks.<button class=\"ref\" data-ref=\"1\" aria-expanded=\"false\">1</button></p>\n<p>This is the strongest thing niacinamide does. It is also, reliably, printed in the smallest font on the box.</p>\n<h3>What that means in practice</h3>\n<ul>\n<li>If your skin stings, flakes, or has recently turned on you, this is your ingredient.</li>\n<li>If you're chasing glow, it's a supporting actor, not the lead.</li>\n<li>It works while you use it and stops when you stop. It's upkeep, not a cure.</li>\n</ul>\n\n<h2>The claim that's real but oversold</h2>\n<p>Pigment gets made in one type of cell and handed to its neighbours, a bit like passing a parcel down a row. Niacinamide doesn't stop the parcel being made. It makes the handover clumsier. Less pigment arrives at the surface, so spots fade.</p>\n<p>That's a genuine effect and it beat a placebo when researchers treated one half of people's faces and left the other half alone for eight weeks.<button class=\"ref\" data-ref=\"2\" aria-expanded=\"false\">2</button></p>\n<p>Here's the honest part, which is a comparison. Against nothing, niacinamide wins. Against the prescription options used for melasma, it generally doesn't.<button class=\"ref\" data-ref=\"3\" aria-expanded=\"false\">3</button> If something is being sold to you for dark spots on the strength of niacinamide alone, you're being sold its second-best trick at its best-trick price.</p>\n\n<blockquote>A result can be real, repeatable, and still far too small for anyone to notice in a mirror. Those are three separate questions, and adverts only ever answer the first one.</blockquote>\n\n<h2>The two claims that are thinner than they look</h2>\n<p>The oil-control reputation traces back largely to one study using 2% niacinamide in a small group of people.<button class=\"ref\" data-ref=\"4\" aria-expanded=\"false\">4</button> It's a perfectly reasonable study. It's also a single one, at a lower strength than most serums use, and nobody has repeated it at anything like the scale the marketing implies.</p>\n<p>Wrinkles are a similar story. The famous 12-week study did find improvements in fine lines and texture compared with a placebo cream — but the changes were small, picked up mostly by instruments rather than eyes, and the research was funded by a company that sells the ingredient.<button class=\"ref\" data-ref=\"5\" aria-expanded=\"false\">5</button> We grade that C. Not because it's wrong. Because nobody independent has checked.</p>\n\n<h2>The 10% question</h2>\n<p>Almost all the trial data sits between 2% and 5%. Above that, evidence of extra benefit thins out while reports of stinging go up — and the high-percentage products that caused a wave of complaints a few years back were generally 10% or more.</p>\n<p>We could not find a single published trial showing 10% beats 5% at anything. Until one exists, 5% is the sensible ceiling, and paying extra for double the concentration is paying extra for a bigger number.</p>\n\n<div class=\"callout\">\n<p class=\"eyebrow\">Commonly misread</p>\n<p>Nicotinamide tablets, at 500&nbsp;mg twice a day, reduced new skin cancers in people at high risk in a large trial.<button class=\"ref\" data-ref=\"6\" aria-expanded=\"false\">6</button> That's a strong result — for a tablet, in people who'd already had multiple skin cancers, at a dose no serum comes close to. It is not evidence that your niacinamide serum prevents skin cancer. Sunscreen does that job.</p>\n</div>\n\n<h2>The short version</h2>\n<p><strong>Barrier:</strong> yes, and it's cheap. <strong>Dark spots:</strong> a bit, slowly, be patient. <strong>Oil:</strong> maybe. <strong>Wrinkles:</strong> put the money towards a retinoid instead. <strong>Strength:</strong> 4&ndash;5% is plenty.</p>",
+    "refs": [
+      {
+        "grade": "B",
+        "authors": "Tanno O, Ota Y, Kitamura N, et al.",
+        "title": "Nicotinamide increases biosynthesis of ceramides as well as other stratum corneum lipids to improve the epidermal permeability barrier.",
+        "journal": "British Journal of Dermatology",
+        "year": "2000",
+        "design": "Cell-culture work plus topical application in humans",
+        "note": "Kanebo (industry) laboratory; barrier effect in people measured as water loss, not appearance",
+        "pmid": "10971324",
+        "doi": "10.1111/j.1365-2133.2000.03705.x"
+      },
+      {
+        "grade": "B",
+        "authors": "Hakozaki T, Minwalla L, Zhuang J, et al.",
+        "title": "The effect of niacinamide on reducing cutaneous pigmentation and suppression of melanosome transfer.",
+        "journal": "British Journal of Dermatology",
+        "year": "2002",
+        "design": "Split-face, vehicle-controlled",
+        "note": "Procter & Gamble authors; industry-funded",
+        "pmid": "12100180",
+        "doi": "10.1046/j.1365-2133.2002.04834.x"
+      },
+      {
+        "grade": "B",
+        "authors": "Navarrete-Solís J, Castanedo-Cázares JP, Torres-Álvarez B, et al.",
+        "title": "A double-blind, randomized clinical trial of niacinamide 4% versus hydroquinone 4% in the treatment of melasma.",
+        "journal": "Dermatology Research and Practice",
+        "year": "2011",
+        "design": "Split-face RCT, n=27, 8 weeks",
+        "note": "University-funded, no declared industry interest",
+        "pmid": "21822427",
+        "doi": "10.1155/2011/379173"
+      },
+      {
+        "grade": "C",
+        "authors": "Draelos ZD, Matsubara A, Smiles K.",
+        "title": "The effect of 2% niacinamide on facial sebum production.",
+        "journal": "Journal of Cosmetic and Laser Therapy",
+        "year": "2006",
+        "design": "Two small vehicle-controlled studies, Japanese and US groups",
+        "note": "Procter & Gamble authors; not widely repeated since",
+        "pmid": "16766489",
+        "doi": "10.1080/14764170600717704"
+      },
+      {
+        "grade": "C",
+        "authors": "Bissett DL, Oblong JE, Berge CA.",
+        "title": "Niacinamide: a B vitamin that improves aging facial skin appearance.",
+        "journal": "Dermatologic Surgery",
+        "year": "2005",
+        "design": "Split-face, vehicle-controlled, n=50, 12 weeks",
+        "note": "Procter & Gamble authors; industry-funded",
+        "pmid": "16029679",
+        "doi": "10.1111/j.1524-4725.2005.31732"
+      },
+      {
+        "grade": "A",
+        "authors": "Chen AC, Martin AJ, Choy B, et al.",
+        "title": "A phase 3 randomized trial of nicotinamide for skin-cancer chemoprevention.",
+        "journal": "New England Journal of Medicine",
+        "year": "2015",
+        "design": "Phase 3 RCT, n=386, 12 months",
+        "note": "Oral tablets at 500 mg twice daily, not a topical serum",
+        "pmid": "26488693",
+        "doi": "10.1056/NEJMoa1506197"
+      }
+    ],
+    "products": [
+      {
+        "brand": "Beauty of Joseon",
+        "name": "Glow Serum: Propolis + Niacinamide",
+        "price": "Budget",
+        "url": "https://beautyofjoseon.com/products/glow-serum-propolis-niacinamide",
+        "why": "2% niacinamide, stated openly on the brand's own page. That sits at the bottom of the evidenced range, which is the right place to start if you have never used it or your skin reacts to everything.",
+        "flag": "Also contains 0.5% BHA, so it is doing two jobs at once. If your barrier is already struggling, start with something simpler."
+      },
+      {
+        "brand": "CeraVe",
+        "name": "PM Facial Moisturising Lotion",
+        "price": "Budget",
+        "url": "https://www.cerave.com/skincare/moisturizers/pm-facial-moisturizing-lotion",
+        "why": "Niacinamide sits fourth on the ingredient list alongside three ceramides and cholesterol — which is the pairing the barrier evidence actually supports, rather than niacinamide on its own. Cheap enough to use generously.",
+        "flag": "CeraVe does not publish the percentage. Independent estimates put it around 3–4%, inside the evidenced range, but you are trusting an estimate."
+      },
+      {
+        "brand": "EltaMD",
+        "name": "UV Clear Broad Spectrum SPF 46",
+        "price": "Premium",
+        "url": "https://eltamd.com/products/uv-clear-broad-spectrum-spf-46",
+        "why": "5% niacinamide, stated by the brand, in a sunscreen. That is the top of the evidenced range attached to the one product with better evidence than niacinamide itself, which makes it the most efficient way to get both.",
+        "flag": ""
+      }
+    ]
+  },
+  {
+    "history": [
+      {
+        "date": "28 Jul 2026",
+        "note": "Added the specific application-quantity figures (0.39–1.0 mg/cm²) from Petersen & Wulf rather than describing them loosely."
+      }
+    ],
+    "slug": "sunscreen-reapplication",
+    "grade": "A",
+    "topic": "Sun protection",
+    "read": "9 min",
+    "updated": "28 July 2026",
+    "title": "Your sunscreen is probably working at half strength",
+    "dek": "The number on the bottle is measured under laboratory conditions nobody reproduces in a bathroom. Here's the gap, and how to close it.",
+    "glance": [
+      {
+        "k": "Does sunscreen work",
+        "g": "A",
+        "v": "Yes. Trials show it prevents both skin ageing and skin cancers."
+      },
+      {
+        "k": "How much people apply",
+        "g": "A",
+        "v": "Roughly a quarter to a half of the tested amount."
+      },
+      {
+        "k": "What that costs you",
+        "g": "B",
+        "v": "Real protection lands well below the labelled number."
+      },
+      {
+        "k": "Reapplication",
+        "g": "B",
+        "v": "Matters more than upgrading from SPF 30 to 50."
+      },
+      {
+        "k": "Chemical vs mineral",
+        "g": "A",
+        "v": "Both work. Use whichever you'll actually put on."
+      }
+    ],
+    "body": "\n<p>Sunscreen is the single most evidence-backed thing you can put on your face, and almost everybody is using it wrong. Not dramatically wrong. Just quietly, consistently, everyday wrong, in a way that turns an SPF 50 into something closer to an SPF 15.</p>\n\n<h2>Where the number comes from</h2>\n<p>To earn an SPF rating, a sunscreen is tested at a standard thickness: 2 milligrams for every square centimetre of skin. That is a lot more product than it sounds. On an average adult face and neck, it works out at roughly a third of a teaspoon — a visible, slightly ridiculous amount that sits on the skin for a minute before it sinks in.</p>\n<p>Study after study finds that real people apply somewhere between a quarter and a half of that.<button class=\"ref\" data-ref=\"1\" aria-expanded=\"false\">1</button> Not because they're careless. Because the tested amount looks and feels like too much, and nobody ever told them otherwise.</p>\n<p>The unhelpful part is that protection doesn't drop off in a straight line. Halve the amount and you don't get half the SPF — you get considerably less than half. An SPF 50 applied at half thickness behaves far more like an SPF 15 than an SPF 25.</p>\n\n<blockquote>The most effective sunscreen upgrade available to you is free. Use more of the one you already own.</blockquote>\n\n<h2>So does it actually prevent anything?</h2>\n<p>This is the part worth being clear about, because sunscreen gets an unusual amount of internet suspicion for something with genuinely strong evidence behind it.</p>\n<p>In a long-running randomised trial in Queensland, adults assigned to daily sunscreen developed fewer squamous cell carcinomas than those left to their usual habits, and follow-up years later showed a reduction in melanoma too.<button class=\"ref\" data-ref=\"2\" aria-expanded=\"false\">2</button> The same trial population showed measurably less skin ageing in the daily-sunscreen group.<button class=\"ref\" data-ref=\"3\" aria-expanded=\"false\">3</button></p>\n<p>That is a randomised controlled trial with hard clinical endpoints. In skincare, that is close to unheard of. Almost nothing else on your shelf has anything like it.</p>\n\n<h2>Reapplication, and why the two-hour rule exists</h2>\n<p>Sunscreen doesn't expire on your face at the two-hour mark like a parking ticket. It degrades gradually — some filters break down in light, and the rest gets rubbed, sweated and wiped away. Two hours is a practical rule of thumb for time spent outdoors, not a chemical deadline.</p>\n<p>If you're at a desk all day, away from windows, you are not meaningfully losing protection every two hours. If you're outside, swimming, sweating or touching your face, you are, and the rule is a good one.</p>\n<h3>A realistic routine</h3>\n<ul>\n<li>Two fingers' length of product for face and neck. Yes, that much.</li>\n<li>Apply before you leave, not in the car with one hand on the wheel.</li>\n<li>Outdoors, reapply every two hours. Indoors, once in the morning is generally fine.</li>\n<li>Ears, eyelids, hairline and the back of the neck. Skin cancers turn up in all four.</li>\n</ul>\n\n<h2>The arguments you can safely ignore</h2>\n<p>Mineral versus chemical filters generate enormous online heat and very little practical difference. Both types work. Both are regulated. The one that protects you best is the one whose texture you don't hate, because that's the one you'll reapply.</p>\n<p>The absorption question deserves one honest sentence: some chemical filters are measurably absorbed into the bloodstream, which regulators have asked manufacturers to study further.<button class=\"ref\" data-ref=\"4\" aria-expanded=\"false\">4</button> Detecting something in blood is not the same as showing it causes harm, and no such harm has been demonstrated. Meanwhile, the harm from ultraviolet light is not in question at all.</p>\n\n<h2>The short version</h2>\n<p>Use more than feels sensible. Reapply when you're outdoors. Pick a texture you enjoy. Stop worrying about which filter type you've bought, and start worrying about whether you've put on enough of it.</p>",
+    "refs": [
+      {
+        "grade": "A",
+        "authors": "Petersen B, Wulf HC.",
+        "title": "Application of sunscreen — theory and reality.",
+        "journal": "Photodermatology, Photoimmunology & Photomedicine",
+        "year": "2014",
+        "design": "Literature review of application-quantity studies",
+        "note": "Found real-world application of 0.39–1.0 mg/cm² against a 2 mg/cm² testing standard",
+        "pmid": "24313722",
+        "doi": "10.1111/phpp.12099"
+      },
+      {
+        "grade": "A",
+        "authors": "Green AC, Williams GM, Logan V, Strutton GM.",
+        "title": "Reduced melanoma after regular sunscreen use: randomized trial follow-up.",
+        "journal": "Journal of Clinical Oncology",
+        "year": "2011",
+        "design": "RCT, n=1,621, followed 10 years after the trial ended",
+        "note": "The Nambour trial. Overall melanoma reduction just missed significance; the drop in invasive melanoma did not",
+        "pmid": "21135266",
+        "doi": "10.1200/JCO.2010.28.7078"
+      },
+      {
+        "grade": "A",
+        "authors": "Hughes MCB, Williams GM, Baker P, Green AC.",
+        "title": "Sunscreen and prevention of skin aging: a randomized trial.",
+        "journal": "Annals of Internal Medicine",
+        "year": "2013",
+        "design": "RCT, n=903, 4.5 years",
+        "note": "Same Nambour population. Skin ageing was 24% lower in the daily-sunscreen group",
+        "pmid": "23732711",
+        "doi": "10.7326/0003-4819-158-11-201306040-00002"
+      },
+      {
+        "grade": "B",
+        "authors": "Matta MK, Florian J, Zusterzeel R, et al.",
+        "title": "Effect of sunscreen application on plasma concentration of sunscreen active ingredients.",
+        "journal": "JAMA",
+        "year": "2020",
+        "design": "Randomised clinical trial, n=48, maximal-use conditions",
+        "note": "Run by FDA scientists. Measured absorption only; did not assess harm",
+        "pmid": "31961417",
+        "doi": "10.1001/jama.2019.20747"
+      }
+    ],
+    "products": [
+      {
+        "brand": "Beauty of Joseon",
+        "name": "Relief Sun: Rice + Probiotics SPF50+",
+        "price": "Budget",
+        "url": "https://beautyofjoseon.com/products/relief-sun-rice-probiotics",
+        "why": "Light enough that you will apply a proper amount rather than a polite smear, and cheap enough that reapplying doesn't feel like burning money. Both of those matter more than the SPF number.",
+        "flag": "Uses filters approved in Korea and the EU but not all of them in the US. Check what is legally sold where you are."
+      },
+      {
+        "brand": "EltaMD",
+        "name": "UV Clear Broad Spectrum SPF 46",
+        "price": "Premium",
+        "url": "https://eltamd.com/products/uv-clear-broad-spectrum-spf-46",
+        "why": "Zinc oxide plus 5% niacinamide, which suits acne-prone and rosacea-prone skin that tends to hate heavier sunscreens. The most-recommended option among dermatologists for a reason.",
+        "flag": ""
+      },
+      {
+        "brand": "La Roche-Posay",
+        "name": "Cicaplast Balm B5 UV SPF 50",
+        "price": "Mid",
+        "url": "https://www.laroche-posay.us/our-products/body/body-lotion/cicaplast-balm-b5-uv-spf-50-3606000621992.html",
+        "why": "For the specific situation where your barrier is wrecked and you still need sun protection — after a peel, a laser, or an over-enthusiastic retinoid week. Does both jobs without stinging.",
+        "flag": ""
+      }
+    ]
+  },
+  {
+    "history": [
+      {
+        "date": "19 Jul 2026",
+        "note": "Flagged the petrolatum occlusive claim as unsourced. We could not verify a specific primary study and will not cite one we have not read."
+      }
+    ],
+    "slug": "barrier-creams",
+    "grade": "B",
+    "topic": "Products",
+    "read": "7 min",
+    "updated": "19 July 2026",
+    "title": "Barrier creams: the ratio matters more than the ingredient list",
+    "dek": "Ceramides get all the marketing. The research says it's the proportions that do the work — and the wrong proportions can slow healing down.",
+    "glance": [
+      {
+        "k": "Ceramides alone",
+        "g": "B",
+        "v": "Less effective than a balanced mixture. Sometimes worse than nothing."
+      },
+      {
+        "k": "Balanced lipid blends",
+        "g": "B",
+        "v": "Speed up barrier recovery in controlled testing."
+      },
+      {
+        "k": "Petrolatum",
+        "g": "A",
+        "v": "Unglamorous, very cheap, extremely effective."
+      },
+      {
+        "k": "Glycerin",
+        "g": "A",
+        "v": "Boring, well-proven, in almost every decent moisturiser."
+      },
+      {
+        "k": "'Skin-identical' marketing",
+        "g": "D",
+        "v": "A phrase, not a finding."
+      }
+    ],
+    "body": "\n<p>Every moisturiser now advertises ceramides. They appear in serums, cleansers, lip balms and, at time of writing, at least one brand of socks. The ingredient is real and it matters. The way it's sold is mostly nonsense.</p>\n\n<h2>The mortar, again</h2>\n<p>Back to the brick wall. Between your skin cells sits a mixture of three fatty substances: ceramides, cholesterol and free fatty acids. Together they form the mortar that keeps water in and irritants out.</p>\n<p>Here's the bit the adverts skip. Researchers found that you can't simply pour in more of one and expect improvement. When they applied incomplete mixtures to damaged skin, recovery slowed down. Balanced mixtures, containing all three in sensible proportions, sped it up.<button class=\"ref\" data-ref=\"1\" aria-expanded=\"false\">1</button></p>\n<p>The finding is the ratio, not the ingredient. A cream boasting about ceramides while containing nothing else useful is advertising one brick and calling it a house.</p>\n\n<h2>The ingredient that beats almost everything and gets no credit</h2>\n<p>Petrolatum reduces water loss through skin by a very large margin, costs almost nothing, and has one of the longest safety records in dermatology.<button class=\"ref\" data-ref=\"2\" aria-expanded=\"false\">2</button> It has no ceramides, no peptides and no story. It just works.</p>\n<p>It's greasy, which is its entire public relations problem. Used as a final layer at night — the technique people online call slugging — it's one of the most reliable things you can do for a wrecked barrier, and a tub costs less than a coffee.</p>\n\n<blockquote>An ingredient's marketing budget and its evidence base are almost entirely unrelated. Sometimes they're inversely related.</blockquote>\n\n<h2>How to read a moisturiser</h2>\n<p>Decent barrier repair creams tend to combine three kinds of ingredient, and most good ones aren't shy about it:</p>\n<ul>\n<li><strong>Humectants</strong> pull water in. Glycerin, hyaluronic acid, urea. Glycerin is the workhorse and it's in nearly everything.</li>\n<li><strong>Emollients</strong> smooth the surface and fill the gaps. Squalane, fatty acids, plant oils.</li>\n<li><strong>Occlusives</strong> seal it all in. Petrolatum, dimethicone, shea butter.</li>\n</ul>\n<p>A cream with all three, in a boring white tub, will outperform a beautifully packaged serum containing one fashionable lipid and a lot of water.</p>\n\n<div class=\"callout\">\n<p class=\"eyebrow\">Worth knowing</p>\n<p>Humectants pull water from wherever they can find it. In very dry air, hyaluronic acid applied to bare skin and left unsealed can draw moisture <em>out</em> of the deeper layers rather than in from the environment. Apply it to slightly damp skin and put something on top. This is the single most common reason people report that hyaluronic acid \"makes my skin drier.\"</p>\n</div>\n\n<h2>What we'd actually tell you</h2>\n<p>If your barrier is damaged, simplify ruthlessly. Stop the acids and retinoids for a fortnight. Use a gentle cleanser, a boring cream with all three ingredient types, and petrolatum at night. Most barriers repair themselves within two to four weeks if you get out of their way.</p>\n<p>If it doesn't settle in a month, or if it's weeping, cracking or spreading, that's a conversation with a doctor rather than a shopping problem. Eczema and contact dermatitis both masquerade as a damaged barrier and neither is fixed by a nicer moisturiser.</p>",
+    "refs": [
+      {
+        "grade": "B",
+        "authors": "Man MQ, Feingold KR, Thornfeldt CR, Elias PM.",
+        "title": "Optimization of physiological lipid mixtures for barrier repair.",
+        "journal": "Journal of Investigative Dermatology",
+        "year": "1996",
+        "design": "Controlled experimental study, mostly murine skin",
+        "note": "The foundational ratio work. Human results were preliminary and reported only briefly",
+        "pmid": "8618046",
+        "doi": "10.1111/1523-1747.ep12340135"
+      },
+      {
+        "grade": "B",
+        "authors": "Ghadially R, Halkier-Sørensen L, Elias PM.",
+        "title": "Effects of petrolatum on stratum corneum structure and function.",
+        "journal": "Journal of the American Academy of Dermatology",
+        "year": "1992",
+        "design": "Controlled application in human volunteers, plus microscopy",
+        "note": "Found petrolatum speeds barrier recovery rather than merely sealing it. The widely quoted ‘reduces water loss by 98%’ figure is not from this paper and we have not traced it to one",
+        "pmid": "1564142",
+        "doi": "10.1016/0190-9622(92)70060-s"
+      }
+    ],
+    "products": [
+      {
+        "brand": "CeraVe",
+        "name": "Moisturising Cream",
+        "price": "Budget",
+        "url": "https://www.cerave.com/skincare/moisturizers/moisturizing-cream",
+        "why": "Glycerin, petrolatum, three ceramides and cholesterol in one unexciting tub — humectant, emollient and occlusive all present, which is the whole checklist. Does the job far more expensive creams claim to do.",
+        "flag": ""
+      },
+      {
+        "brand": "CeraVe",
+        "name": "Healing Ointment",
+        "price": "Budget",
+        "url": "https://www.cerave.com/skincare/moisturizers/healing-ointment",
+        "why": "Petrolatum-based, so it seals like petroleum jelly, with ceramides added and a slightly less greasy finish. Use it as a final night layer over your moisturiser when the barrier is badly damaged.",
+        "flag": "Plain petroleum jelly is cheaper and seals just as well. You are paying for the ceramides and the texture, not for better occlusion."
+      },
+      {
+        "brand": "La Roche-Posay",
+        "name": "Cicaplast Baume B5+",
+        "price": "Mid",
+        "url": "https://www.laroche-posay.us/our-products/body/body-lotion/cicaplast-balm-b5-cicaplast-balm-b5-uv-with-spf-50-set-cicabalmcicabalmuvset.html",
+        "why": "Designed for compromised and post-procedure skin, and pleasant enough to actually use on your face during a bad fortnight rather than abandoning halfway.",
+        "flag": "The official link is a set with the SPF version. Buy the single balm from any stockist if you don't need both."
+      }
+    ]
+  },
+  {
+    "history": [
+      {
+        "date": "9 Jul 2026",
+        "note": "Collagen peptides downgraded from Grade B to Grade C after the 2025 meta-analysis found the effect disappears in independently funded trials."
+      },
+      {
+        "date": "9 Jul 2026",
+        "note": "Biotin claim now cites the FDA safety communication directly."
+      }
+    ],
+    "slug": "supplements",
+    "grade": "C",
+    "topic": "Holistic health",
+    "read": "11 min",
+    "updated": "9 July 2026",
+    "title": "Skin supplements: the few that hold up, and the many that don't",
+    "dek": "One has genuinely strong evidence. One we have just downgraded. One is worth avoiding before a blood test. The rest are expensive urine.",
+    "glance": [
+      {
+        "k": "Collagen peptides",
+        "g": "C",
+        "v": "Effect vanishes in independently funded trials. Downgraded from B."
+      },
+      {
+        "k": "Nicotinamide tablets",
+        "g": "A",
+        "v": "Strong evidence — for people at high skin cancer risk."
+      },
+      {
+        "k": "Omega-3",
+        "g": "C",
+        "v": "Plausible for inflammatory conditions. Data is mixed."
+      },
+      {
+        "k": "Zinc",
+        "g": "C",
+        "v": "Some acne evidence. Easy to overdo."
+      },
+      {
+        "k": "Biotin",
+        "g": "D",
+        "v": "No benefit unless deficient, and it skews blood tests."
+      }
+    ],
+    "body": "\n<p>The supplement aisle is where good evidence goes to be quoted out of context. Almost every bottle can point to a study. Very few can point to a good one, and fewer still to a good one that wasn't paid for by the company selling the bottle.</p>\n<p>Here's the honest sorting.</p>\n\n<h2>The one with genuinely strong evidence — for a specific group</h2>\n<p>Nicotinamide, taken as a tablet at 500&nbsp;mg twice daily, reduced new skin cancers in a large randomised trial of people who had already had several.<button class=\"ref\" data-ref=\"1\" aria-expanded=\"false\">1</button> That's a proper Grade A result with a hard clinical endpoint.</p>\n<p>The catch is who it's for. The trial recruited people at high risk, and the benefit was measured in that population. If you've never had a skin cancer, this trial doesn't tell you much about your odds, and it's a conversation to have with a dermatologist rather than a supermarket shelf.</p>\n\n<h2>The one we got wrong, and had to downgrade</h2>\n<p>Collagen peptides were, for years, easy to mock. Eat collagen, digest it into amino acids like any other protein, achieve nothing — that was the reasonable prediction.</p>\n<p>The trials appeared not to cooperate. A 2021 review pooled the clinical trials together and found improvements in skin hydration and elasticity.<button class=\"ref\" data-ref=\"2\" aria-expanded=\"false\">2</button> On that basis we originally graded collagen B, and said so.</p>\n<p>Then a 2025 meta-analysis did something the earlier ones had not: it sorted the 23 trials by <em>who paid for them</em>. Pooled together, the benefit was still there. Split apart, trials funded by supplement companies showed clear benefits — and trials without industry funding showed no effect on hydration, elasticity or wrinkles. None. The same split appeared when studies were sorted by methodological quality instead of funding.<button class=\"ref\" data-ref=\"3\" aria-expanded=\"false\">3</button></p>\n<p>So we have downgraded collagen peptides from B to C. The positive signal is real, and it lives almost entirely in trials run by people who sell collagen. Collagen manufacturers have publicly disputed how that analysis classified some studies, which is worth knowing and does not resolve the pattern.</p>\n\n<blockquote>This is what grading is for. A number that moves the moment someone checks who paid for the research was never a solid number.</blockquote>\n\n<h2>The plausible ones</h2>\n<p>Omega-3 fatty acids have reasonable mechanistic logic and genuinely mixed human results in acne and psoriasis.<button class=\"ref\" data-ref=\"4\" aria-expanded=\"false\">4</button> Some trials find benefit, some find nothing. If you eat very little oily fish, supplementing is sensible for reasons that have nothing to do with your face.</p>\n<p>Zinc has some acne evidence, generally weaker than standard treatments and generally at doses that cause nausea. It also competes with copper absorption over the long term. It's a reasonable adjunct, not a plan.</p>\n\n<div class=\"callout\">\n<p class=\"eyebrow\">Please read this one</p>\n<p>High-dose biotin — the hair, skin and nails staple — does nothing for skin unless you have a genuine deficiency, which is rare. More importantly, it interferes with a wide range of common laboratory blood tests, including thyroid function and the troponin test used to diagnose heart attacks. The US Food and Drug Administration has warned about this twice, and says it kept receiving reports of falsely low troponin results after the first warning.<button class=\"ref\" data-ref=\"5\" aria-expanded=\"false\">5</button> If you take biotin, tell whoever draws your blood, and stop several days before any planned test.</p>\n</div>\n\n<h2>The ones with nothing behind them</h2>\n<p>Marine collagen marketed as superior to bovine, \"beauty waters\", chlorophyll drops, and most multi-ingredient beauty gummies fall into a category we'd describe as Grade D at best: a plausible-sounding mechanism, no human trial, and a price that assumes you won't check.</p>\n<p>Gummies deserve a specific mention. To taste acceptable they need sugar, and to fit in a gummy the active doses are usually well below anything ever tested.</p>\n\n<h2>The short version</h2>\n<p>Eat properly. If you've had multiple skin cancers, ask a dermatologist about nicotinamide. Collagen peptides are defensible if you have spare money and modest expectations. Tell your doctor about biotin. Everything else can wait until someone runs a trial that isn't funded by the people selling it.</p>",
+    "refs": [
+      {
+        "grade": "A",
+        "authors": "Chen AC, Martin AJ, Choy B, et al.",
+        "title": "A phase 3 randomized trial of nicotinamide for skin-cancer chemoprevention.",
+        "journal": "New England Journal of Medicine",
+        "year": "2015",
+        "design": "Phase 3 RCT, n=386, 12 months",
+        "note": "High-risk population only — everyone enrolled had already had at least two skin cancers",
+        "pmid": "26488693",
+        "doi": "10.1056/NEJMoa1506197"
+      },
+      {
+        "grade": "B",
+        "authors": "de Miranda RB, Weimer P, Rossi RC.",
+        "title": "Effects of hydrolyzed collagen supplementation on skin aging: a systematic review and meta-analysis.",
+        "journal": "International Journal of Dermatology",
+        "year": "2021",
+        "design": "Systematic review and meta-analysis of clinical trials",
+        "note": "Pooled all trials together without separating by funding source",
+        "pmid": "33742704",
+        "doi": "10.1111/ijd.15518"
+      },
+      {
+        "grade": "A",
+        "authors": "Myung SK, Park Y.",
+        "title": "Effects of collagen supplements on skin aging: a systematic review and meta-analysis of randomized controlled trials.",
+        "journal": "The American Journal of Medicine",
+        "year": "2025",
+        "design": "Meta-analysis of 23 RCTs, n=1,474",
+        "note": "Authors declared no funding and no conflict of interest",
+        "pmid": "40324552",
+        "doi": "10.1016/j.amjmed.2025.04.034"
+      },
+      {
+        "grade": "C",
+        "authors": "SOURCE NEEDED",
+        "title": "Omega-3 supplementation in inflammatory skin conditions.",
+        "journal": "Not yet sourced",
+        "year": "—",
+        "design": "—",
+        "note": "We could not verify a specific review for this claim. Treat it as unsourced until we do.",
+        "pmid": "",
+        "doi": ""
+      },
+      {
+        "grade": "B",
+        "authors": "U.S. Food and Drug Administration.",
+        "title": "UPDATE: the FDA warns that biotin may interfere with lab tests — FDA safety communication.",
+        "journal": "FDA Safety Communication, 5 November 2019",
+        "year": "2019",
+        "design": "Regulatory safety communication",
+        "note": "Follows the original 2017 communication; FDA continued receiving reports of falsely low troponin results",
+        "pmid": "",
+        "doi": "",
+        "url": "https://www.fda.gov/medical-devices/safety-communications/update-fda-warns-biotin-may-interfere-lab-tests-fda-safety-communication"
+      }
+    ],
+    "products": []
+  },
+  {
+    "history": [
+      {
+        "date": "1 Jul 2026",
+        "note": "Softened the depth guidance from a firm 1.5–2.0 mm range to ‘deep enough to reach the dermis’. The only direct depth comparison we found had 14 participants."
+      }
+    ],
+    "slug": "microneedling",
+    "grade": "B",
+    "topic": "Treatments",
+    "read": "9 min",
+    "updated": "1 July 2026",
+    "title": "Microneedling for acne scars: depth is the whole conversation",
+    "dek": "The trials that show real improvement used depths and session counts that home rollers cannot reach. That's not a detail — it's the mechanism.",
+    "glance": [
+      {
+        "k": "Rolling scars",
+        "g": "B",
+        "v": "Clear improvement in controlled trials. Not erasure."
+      },
+      {
+        "k": "Ice-pick scars",
+        "g": "C",
+        "v": "Responds poorly. Needs different treatment."
+      },
+      {
+        "k": "Depth that works",
+        "g": "C",
+        "v": "Deep enough to reach the dermis. Exact optimum unsettled."
+      },
+      {
+        "k": "Home rollers",
+        "g": "D",
+        "v": "Usually 0.25–0.5 mm. Below the depth that was studied."
+      },
+      {
+        "k": "Sessions needed",
+        "g": "B",
+        "v": "Typically three to six, a month apart."
+      }
+    ],
+    "body": "\n<p>Microneedling is one of the few in-clinic treatments where the evidence is decent, the mechanism makes sense, and the home version has almost nothing to do with the thing that was tested.</p>\n\n<h2>Why controlled injury helps</h2>\n<p>An atrophic acne scar is a small dent — a patch where the skin healed with less collagen than it started with. You cannot fill a dent by moisturising it.</p>\n<p>Microneedling makes hundreds of tiny, controlled punctures that trigger a wound-healing response. Your body lays down new collagen while repairing them, and over several rounds the floor of the scar rises. It's a slow rebuild, not a resurfacing.</p>\n<p>Randomised trials in atrophic acne scarring consistently show meaningful improvement in scar severity scores after a course of treatment.<button class=\"ref\" data-ref=\"1\" aria-expanded=\"false\">1</button> Not perfect skin. Meaningful improvement, which for deep scarring is a substantial result.</p>\n\n<h2>The number that decides everything</h2>\n<p>The trials showing benefit use depths that reach the dermis — generally 1.5&nbsp;mm and above — delivered over multiple sessions spaced two to four weeks apart.<button class=\"ref\" data-ref=\"2\" aria-expanded=\"false\">2</button> That is where collagen gets made.</p>\n<p>What the exact optimum is remains unsettled. One split-face study treated both sides of 14 faces, at 2.5&nbsp;mm on one side and 1.5&nbsp;mm on the other, and found the deeper setting worked better.<button class=\"ref\" data-ref=\"3\" aria-expanded=\"false\">3</button> Fourteen people is a very small study, so read that as a hint rather than a protocol.</p>\n<p>Home rollers sold for skincare are typically 0.25 to 0.5&nbsp;mm. That depth doesn't reliably reach the layer that responds. It's not a weaker version of the studied treatment. It's a different thing that shares a name.</p>\n<p>There's a second problem. Rollers drag the needles through skin at an angle rather than entering straight down, and home devices are notoriously difficult to sterilise properly between uses.</p>\n\n<blockquote>If a home device could reach the depth used in the trials, it would need the aftercare, the anaesthetic and the infection control that go with it. The reason it's safe to sell you is the same reason it doesn't work.</blockquote>\n\n<h2>Which scars respond, and which don't</h2>\n<ul>\n<li><strong>Rolling scars</strong> — broad, shallow, wavy. The best responders.</li>\n<li><strong>Boxcar scars</strong> — sharp-edged, shallow to medium. Reasonable response.</li>\n<li><strong>Ice-pick scars</strong> — narrow and deep. Poor response. These usually need a technique that treats each scar individually.</li>\n</ul>\n<p>Most people have a mixture, which is why a good clinician will often combine approaches rather than sell you a single course of anything.</p>\n\n<div class=\"callout\">\n<p class=\"eyebrow\">Before you book</p>\n<p>Treat the acne first. Needling actively inflamed skin can spread bacteria and cause more scarring than it repairs. If you still get regular breakouts, that's the problem to solve first — and it's the cheaper one.</p>\n<p>If you have darker skin, ask specifically about the operator's experience with your skin tone. Any controlled injury carries a risk of post-inflammatory pigmentation, and technique matters enormously here.</p>\n</div>\n\n<h2>Realistic expectations</h2>\n<p>Published trials tend to report scar severity dropping by something in the region of a third to a half over a full course. That's a genuinely good outcome and it is not the same as clear skin. Anyone promising erasure is either selling something or hasn't read the studies.</p>\n<p>Results also keep developing for months after the final session, because collagen remodelling is slow. Judging the outcome at six weeks is judging it too early.</p>\n\n<h2>The short version</h2>\n<p>Worth doing, in a clinic, for rolling and boxcar scars, after your acne is under control, over three to six sessions, with realistic expectations. The roller in your bathroom drawer is doing something closer to nothing.</p>",
+    "refs": [
+      {
+        "grade": "B",
+        "authors": "Sitohang IBS, Sirait SAP, Suryanegara J.",
+        "title": "Microneedling in the treatment of atrophic scars: a systematic review of randomised controlled trials.",
+        "journal": "International Wound Journal",
+        "year": "2021",
+        "design": "Systematic review of RCTs",
+        "note": "Authors declared no conflict of interest",
+        "pmid": "33538106",
+        "doi": "10.1111/iwj.13559"
+      },
+      {
+        "grade": "B",
+        "authors": "Chen SX, Cheng J, Watchmaker J, et al.",
+        "title": "Microneedling monotherapy for acne scar: systematic review and meta-analysis of randomized controlled trials.",
+        "journal": "Aesthetic Plastic Surgery",
+        "year": "2022",
+        "design": "Meta-analysis of 12 RCTs, n=414",
+        "note": "",
+        "pmid": "35426044",
+        "doi": "10.1007/s00266-022-02845-3"
+      },
+      {
+        "grade": "C",
+        "authors": "El-Domyati M, Moftah NH, Ahmed AM, Ibrahim MR.",
+        "title": "Evaluation of microneedling depth of penetration in management of atrophic acne scars: a split-face comparative study.",
+        "journal": "International Journal of Dermatology",
+        "year": "2024",
+        "design": "Split-face comparison, n=14, six sessions",
+        "note": "Very small, but no declared funding or conflict. Found 2.5 mm outperformed 1.5 mm — preliminary, not settled",
+        "pmid": "38159109",
+        "doi": "10.1111/ijd.17006"
+      }
+    ],
+    "products": []
+  },
+  {
+    "history": [
+      {
+        "date": "22 Jun 2026",
+        "note": "Corrected the probiotics section. We previously implied benefit in eczema; the Cochrane review of 39 trials found little to no effect for treatment."
+      }
+    ],
+    "slug": "gut-skin",
+    "grade": "C",
+    "topic": "Holistic health",
+    "read": "10 min",
+    "updated": "22 June 2026",
+    "title": "The gut–skin connection: what's proven, what's plausible, what's invented",
+    "dek": "Diet does affect skin. Just not in the way most of the internet says, and not for most of the conditions it gets blamed for.",
+    "glance": [
+      {
+        "k": "Low-GI diet in acne",
+        "g": "B",
+        "v": "Reasonable trial evidence for reduced lesion counts."
+      },
+      {
+        "k": "Skim milk and acne",
+        "g": "C",
+        "v": "A consistent association. Cause is not established."
+      },
+      {
+        "k": "Probiotics in eczema",
+        "g": "A",
+        "v": "Cochrane reviewed 39 trials: little to no benefit for treatment."
+      },
+      {
+        "k": "Probiotics in acne",
+        "g": "C",
+        "v": "Early, small, mostly underpowered."
+      },
+      {
+        "k": "'Leaky gut' as a diagnosis",
+        "g": "D",
+        "v": "Not an established clinical condition."
+      }
+    ],
+    "body": "\n<p>The gut–skin axis is real. It's also the single most over-claimed idea in wellness skincare, and the gap between the two versions is where a great deal of money changes hands.</p>\n<p>Let's separate them.</p>\n\n<h2>The part with actual trials</h2>\n<p>Diets with a low glycaemic load — fewer foods that spike your blood sugar sharply — have been tested in acne, and randomised trials have found reduced lesion counts compared with typical high-glycaemic diets.<button class=\"ref\" data-ref=\"1\" aria-expanded=\"false\">1</button></p>\n<p>The proposed mechanism is coherent: blood sugar spikes drive insulin, insulin influences hormones that increase oil production and skin cell turnover, and both of those feed acne. It hangs together, and the trials mostly agree.</p>\n<p>This is the strongest diet-and-skin finding there is, and notably it's about the overall shape of what you eat rather than any single villain food.</p>\n\n<h2>The part with an association and no verdict</h2>\n<p>Dairy, and skim milk in particular, shows up repeatedly in studies as associated with acne.<button class=\"ref\" data-ref=\"2\" aria-expanded=\"false\">2</button> The pattern is consistent enough to take seriously and comes almost entirely from observational research — people reporting what they eat and what their skin does.</p>\n<p>That design cannot separate cause from company. People who drink a lot of skim milk differ from people who don't in dozens of other ways. Whole milk, oddly, shows a weaker association than skim, which is the sort of detail that suggests the story isn't finished.</p>\n<p>A reasonable position: if you drink a lot of skim milk and have stubborn acne, cutting it for eight weeks is a cheap experiment. Eliminating all dairy forever on the strength of this is not proportionate.</p>\n\n<blockquote>An association tells you two things arrive together. It does not tell you which one brought the other.</blockquote>\n\n<h2>Probiotics, honestly</h2>\n<p>Here the evidence is clearer than the marketing, and it points the other way. Cochrane — the most conservative reviewers in medicine — pooled 39 randomised trials covering 2,599 people and concluded that probiotics make little to no difference to eczema symptoms, quality of life, or severity as rated by doctors.<button class=\"ref\" data-ref=\"3\" aria-expanded=\"false\">3</button></p>\n<p>Note what that grade means. Grade A here is not “it works”. It is “we know this well” — and what we know well is that it doesn’t do much for treating existing eczema. Prevention in high-risk infants is a separate question with messier data, and one for a paediatrician rather than a supplement aisle.</p>\n<p>One more thing supplement labels erase: probiotic effects are strain-specific. A trial showing benefit for one particular strain says nothing at all about the twelve-strain blend in a different bottle. \"Contains probiotics\" is roughly as informative as \"contains plants\".</p>\n<p>In acne, the probiotic research is early, small and underpowered. Interesting. Not yet actionable.</p>\n\n<div class=\"callout\">\n<p class=\"eyebrow\">A word on 'leaky gut'</p>\n<p>Intestinal permeability is a genuine, measurable phenomenon that changes in certain diseases. \"Leaky gut syndrome\" as a standalone diagnosis, treatable by supplements, causing acne and eczema and fatigue, is not an established clinical condition. If someone offers to test and treat it, ask what the test is and what it's been validated against.</p>\n</div>\n\n<h2>What's worth doing anyway</h2>\n<ul>\n<li>Fewer sharp blood-sugar spikes. This has the best evidence and improves several other things besides your skin.</li>\n<li>Enough fibre and a varied diet. Boring, cheap, broadly good for you.</li>\n<li>If you want to test dairy, test it properly: eight weeks, one variable, and write down what you see.</li>\n<li>Don't cut whole food groups on the strength of a video.</li>\n</ul>\n\n<h2>The short version</h2>\n<p>Diet is one input among several, and it isn't the dominant one for most people. Genetics and hormones do most of the work in acne, and no eating plan out-performs a proper treatment for moderate-to-severe disease. Eat well because it's good for you. Treat your skin because that's what treats your skin.</p>",
+    "refs": [
+      {
+        "grade": "B",
+        "authors": "Smith RN, Mann NJ, Braue A, Mäkeläinen H, Varigos GA.",
+        "title": "A low-glycemic-load diet improves symptoms in acne vulgaris patients: a randomized controlled trial.",
+        "journal": "American Journal of Clinical Nutrition",
+        "year": "2007",
+        "design": "RCT, n=43 young men, 12 weeks",
+        "note": "Funded by Meat & Livestock Australia. The journal later noted it substantially duplicated the authors’ own JAAD paper. Weight loss could not be separated from the diet effect",
+        "pmid": "17616769",
+        "doi": "10.1093/ajcn/86.1.107"
+      },
+      {
+        "grade": "C",
+        "authors": "Juhl CR, Bergholdt HKM, Miller IM, Jemec GBE, Kanters JK, Ellervik C.",
+        "title": "Dairy intake and acne vulgaris: a systematic review and meta-analysis of 78,529 children, adolescents, and young adults.",
+        "journal": "Nutrients",
+        "year": "2018",
+        "design": "Meta-analysis of 14 observational studies, n=78,529",
+        "note": "Observational only — shows association, cannot show cause. Odds ratio 1.25 for any dairy",
+        "pmid": "30096883",
+        "doi": "10.3390/nu10081049"
+      },
+      {
+        "grade": "A",
+        "authors": "Makrgeorgou A, Leonardi-Bee J, Bath-Hextall FJ, Murrell DF, Tang MLK, Roberts A, Boyle RJ.",
+        "title": "Probiotics for treating eczema.",
+        "journal": "Cochrane Database of Systematic Reviews",
+        "year": "2018",
+        "design": "Cochrane review of 39 RCTs, n=2,599",
+        "note": "Concluded probiotics make little to no difference for treating eczema",
+        "pmid": "30480774",
+        "doi": "10.1002/14651858.CD006135.pub3"
+      }
+    ],
+    "products": []
+  },
+  {
+    "history": [],
+    "slug": "azelaic-acid-does-it-actually-work",
+    "grade": "B",
+    "topic": "Ingredients",
+    "read": "8 min",
+    "updated": "14 August 2026",
+    "title": "Azelaic Acid: Does It Actually Work?",
+    "dek": "Azelaic acid treats acne, helps some forms of pigmentation, and has a surprisingly decent evidence base. But how much of the skincare hype does the research actually support?",
+    "glance": [
+      {
+        "k": "Acne",
+        "g": "B",
+        "v": "Good evidence that azelaic acid improves acne, although it isn't necessarily better than established treatments."
+      },
+      {
+        "k": "Melasma",
+        "g": "B",
+        "v": "20% azelaic acid improves melasma compared with vehicle, with mixed but generally encouraging evidence against hydroquinone."
+      },
+      {
+        "k": "PIH",
+        "g": "B",
+        "v": "15% azelaic acid has clinical evidence for improving acne-associated post-inflammatory hyperpigmentation."
+      },
+      {
+        "k": "Anti-ageing",
+        "g": "D",
+        "v": "Sounds plausible. Clinical evidence? Surprisingly little."
+      },
+      {
+        "k": "Tolerability",
+        "g": "B",
+        "v": "Generally well tolerated, but burning, stinging and dryness can still happen."
+      }
+    ],
+    "body": "<p>Azelaic acid is having a bit of a moment.</p>\n\n<p>It treats acne. It can help with rosacea. It fades some forms of pigmentation. It is anti-inflammatory. It has antimicrobial effects. It even gets thrown into conversations about anti-ageing.</p>\n\n<p>At this rate, you'd think it had nothing better to do.</p>\n\n<p>But skincare has a habit of taking a handful of legitimate findings and turning them into one enormous claim:</p>\n\n<p><strong>\"Azelaic acid is good for everything.\"</strong></p>\n\n<p>The research is a little more interesting than that.</p>\n\n<p>There is good clinical evidence that azelaic acid can help with acne, and reasonably good evidence for rosacea and melasma. There is also emerging evidence for post-inflammatory hyperpigmentation.</p>\n\n<p>For other claims, the evidence gets thin surprisingly quickly.</p>\n\n<p>So let's separate what we know from what we'd merely like to be true.</p>\n\n<h2>Claim 1: Azelaic acid works for acne</h2>\n\n<p><strong>Evidence grade: B — Moderate</strong></p>\n\n<p>This one is not particularly controversial.</p>\n\n<p>Randomized trials have repeatedly found azelaic acid to be better than an inactive vehicle for acne, and a 2023 systematic review identified 16 randomized trials supporting its effectiveness.</p>\n\n<p>Azelaic acid appears to have several effects that are useful in acne. It has anti-inflammatory and antimicrobial activity and can affect abnormal keratinization — basically, some of the processes involved in getting pores blocked and inflamed in the first place.</p>\n\n<p>But here's the important bit:</p>\n\n<p><strong>\"Works\" does not mean \"works best.\"</strong></p>\n\n<p>The available evidence suggests azelaic acid is effective, but comparisons with other treatments are more nuanced. In some comparisons it performs similarly to established topical treatments, while in others another treatment may have an advantage.</p>\n\n<p>So:</p>\n\n<p><strong>Azelaic acid can treat acne.</strong></p>\n\n<p>Yes.</p>\n\n<p><strong>Azelaic acid is the strongest acne treatment available.</strong></p>\n\n<p>Not remotely what the evidence says.</p>\n\n<p>This distinction is rather important when an ingredient's marketing department gets hold of it.</p>\n\n<h2>Claim 2: Azelaic acid can improve melasma</h2>\n\n<p><strong>Evidence grade: B — Moderate</strong></p>\n\n<p>This is where things get more interesting.</p>\n\n<p>A 2023 systematic review identified seven randomized trials of azelaic acid for melasma. In those studies, 20% azelaic acid was significantly better than vehicle for both melasma severity and global improvement.</p>\n\n<p>There is also evidence comparing azelaic acid with hydroquinone.</p>\n\n<p>And this is where things get slightly messy.</p>\n\n<p>A 2023 systematic review and meta-analysis included six randomized trials involving 673 people with melasma. Interestingly, the pooled analysis found a greater improvement in MASI with azelaic acid than with hydroquinone. However, several other measures of treatment response did not show a statistically significant difference between the two.</p>\n\n<p>In other words, this is not strong enough evidence to declare a winner and send hydroquinone packing.</p>\n\n<p>The sensible conclusion is:</p>\n\n<p><strong>Azelaic acid is a legitimate treatment for melasma, but the comparative evidence against hydroquinone is not simple enough to say that one universally beats the other.</strong></p>\n\n<p>That's considerably less exciting.</p>\n\n<p>It's also considerably more accurate.</p>\n\n<h2>Claim 3: Azelaic acid can fade post-inflammatory hyperpigmentation</h2>\n\n<p><strong>Evidence grade: B — Moderate</strong></p>\n\n<p>This is a newer area of the evidence, but the results are encouraging.</p>\n\n<p>A 2024 randomized, double-blind, placebo-controlled trial enrolled 72 people with mild-to-moderate acne. Sixty completed the study.</p>\n\n<p>The treatment group used <strong>15% azelaic acid gel twice daily for 12 weeks</strong>. Researchers assessed acne as well as post-inflammatory erythema and hyperpigmentation using clinical and instrumental measurements.</p>\n\n<p>By week 12, melanin measurements in PIH lesions had decreased significantly in the azelaic acid group compared with placebo.</p>\n\n<p>That's useful evidence.</p>\n\n<p>There is also older clinical evidence supporting azelaic acid for acne-associated post-inflammatory hyperpigmentation.</p>\n\n<p>So we can reasonably say:</p>\n\n<p><strong>15% azelaic acid can improve acne-associated PIH.</strong></p>\n\n<p>What we shouldn't say is:</p>\n\n<p><strong>\"Azelaic acid treats all pigmentation.\"</strong></p>\n\n<p>Pigmentation is not one disease.</p>\n\n<p>Melasma is not PIH. A sun spot is not PIH. Pigmentation following irritation is not necessarily melasma.</p>\n\n<p>The treatments may overlap.</p>\n\n<p>The biology doesn't necessarily.</p>\n\n<h2>Claim 4: Azelaic acid can improve pigmentation in darker skin</h2>\n\n<p><strong>Evidence grade: B — Moderate</strong></p>\n\n<p>There is an older but useful randomized trial here.</p>\n\n<p>The study included darker-skinned participants with Fitzpatrick skin types IV–VI and compared 20% azelaic acid cream with its vehicle over 24 weeks.</p>\n\n<p>Azelaic acid produced significantly greater reductions in pigment intensity than the vehicle, both on investigator assessment and instrumental measurement. Global improvement was also significantly greater with azelaic acid.</p>\n\n<p>That is reassuring because pigmentation treatments don't always behave identically across different skin types.</p>\n\n<p>It also gives us something better than a mechanism on a whiteboard:</p>\n\n<p><strong>actual people, actual treatment, actual pigmentation measurements.</strong></p>\n\n<p>There was a downside, though.</p>\n\n<p>Burning and stinging were somewhat more common with azelaic acid than with the vehicle.</p>\n\n<p>Which brings us neatly to another skincare myth.</p>\n\n<h2>Claim 5: Azelaic acid is a \"gentle\" active</h2>\n\n<p><strong>Evidence grade: B — Moderate</strong></p>\n\n<p>Let's retire the word <em>gentle</em> for a moment.</p>\n\n<p>Azelaic acid is generally well tolerated, and that's one of its advantages.</p>\n\n<p>But it can still sting.</p>\n\n<p>Burning, stinging, itching, redness and dryness can occur with topical azelaic acid. In the darker-skin hyperpigmentation trial, burning and stinging were more common with azelaic acid than with vehicle during some visits.</p>\n\n<p>The 2024 PIH study also reported minimal adverse reactions overall.</p>\n\n<p>So we'd describe azelaic acid as:</p>\n\n<p><strong>generally well tolerated</strong></p>\n\n<p>rather than:</p>\n\n<p><strong>impossible to irritate your skin with.</strong></p>\n\n<p>Your skin has not signed that contract.</p>\n\n<h2>Claim 6: Azelaic acid works because it inhibits tyrosinase</h2>\n\n<p><strong>Evidence grade: B — Moderate</strong></p>\n\n<p>There is a biological basis for azelaic acid's effects on pigmentation, including effects on tyrosinase activity and melanocyte function.</p>\n\n<p>But this is where we should be careful.</p>\n\n<p>A molecule doing something interesting in a laboratory dish does not automatically mean your cheeks are going to become noticeably lighter.</p>\n\n<p>Fortunately, azelaic acid doesn't have to rely entirely on mechanism.</p>\n\n<p>Human trials actually show improvements in pigmentation, including trials of 20% azelaic acid in darker-skinned participants and trials of 15% azelaic acid for acne-associated PIH.</p>\n\n<p>So the useful claim is:</p>\n\n<p><strong>Azelaic acid has biological effects that can interfere with melanin production, and clinical trials show that topical formulations can improve some forms of hyperpigmentation.</strong></p>\n\n<p>That's much more useful than simply shouting \"TYROSINASE INHIBITOR!\" at the reader.</p>\n\n<h2>Claim 7: A higher percentage means better results</h2>\n\n<p><strong>Evidence grade: D — Insufficient evidence</strong></p>\n\n<p>This sounds logical.</p>\n\n<p>It also isn't something we can confidently conclude from the available clinical evidence.</p>\n\n<p>A lot of the stronger clinical evidence for pigmentation involves <strong>20% azelaic acid</strong>, while the PIH evidence includes <strong>15% formulations</strong>.</p>\n\n<p>That does not give us a nice little graph where:</p>\n\n<p><strong>10% → good</strong></p>\n\n<p><strong>15% → better</strong></p>\n\n<p><strong>20% → excellent</strong></p>\n\n<p>The formulation matters too.</p>\n\n<p>So if a skincare brand tells you that its 10% azelaic acid product must work just as well as the 20% formulation used in a clinical trial because \"it's the same ingredient\", that's a rather large leap.</p>\n\n<p>Same ingredient.</p>\n\n<p>Not necessarily the same concentration.</p>\n\n<p>Not necessarily the same formulation.</p>\n\n<p>And definitely not the same clinical evidence.</p>\n\n<h2>Claim 8: Azelaic acid is an anti-ageing ingredient</h2>\n\n<p><strong>Evidence grade: D — Insufficient evidence</strong></p>\n\n<p>This one is surprisingly easy to grade.</p>\n\n<p>A 2023 systematic review specifically looking for randomized controlled trials of azelaic acid for skin ageing found <strong>no eligible trials</strong>.</p>\n\n<p>That doesn't prove azelaic acid does absolutely nothing for wrinkles.</p>\n\n<p>It means we don't have the clinical evidence needed to confidently say that it does.</p>\n\n<p>And that's an important distinction.</p>\n\n<p>Azelaic acid can have antioxidant and anti-inflammatory properties.</p>\n\n<p>It can improve acne.</p>\n\n<p>It can improve some pigmentation.</p>\n\n<p>None of those facts magically turn it into a proven anti-wrinkle treatment.</p>\n\n<p>Skincare ingredients do not get to collect benefits like Pokémon.</p>\n\n<h2>So, does azelaic acid actually work?</h2>\n\n<p>Yes.</p>\n\n<p>The evidence is good enough that azelaic acid has earned its place as a legitimate dermatological treatment rather than merely being another ingredient with an impressive Instagram résumé.</p>\n\n<p>The evidence is strongest for <strong>acne</strong>, with randomized trials and systematic reviews supporting its effectiveness.</p>\n\n<p>There is also meaningful evidence for <strong>rosacea and melasma</strong>, particularly with 15–20% formulations.</p>\n\n<p>For <strong>post-inflammatory hyperpigmentation</strong>, the evidence is smaller but increasingly convincing, including a recent randomized placebo-controlled trial of 15% azelaic acid.</p>\n\n<p>For <strong>general anti-ageing</strong>, we're much less certain.</p>\n\n<p>And for the broad claim that azelaic acid will \"brighten\" whatever pigmentation happens to be bothering you, the evidence simply isn't that broad.</p>\n\n<h2>The Stratum verdict</h2>\n\n<p>Azelaic acid is one of the more useful multitaskers in dermatology.</p>\n\n<p>It can treat acne. It can improve certain pigmentary disorders. It has a generally favorable tolerability profile. And unlike many skincare ingredients, there is a respectable amount of clinical evidence behind those claims.</p>\n\n<p>But it isn't magic.</p>\n\n<p>If you're using it for pigmentation, think <strong>weeks to months</strong>, not three Instagram reels and a miracle.</p>\n\n<p>And if you're choosing between azelaic acid and another treatment, the useful question isn't:</p>\n\n<p><strong>\"Which ingredient is better?\"</strong></p>\n\n<p>It's:</p>\n\n<p><strong>\"Better for what?\"</strong></p>\n\n<p>For acne, azelaic acid has good evidence.</p>\n\n<p>For melasma, it has meaningful evidence, but comparative studies don't give us a simple winner.</p>\n\n<p>For acne-associated PIH, the evidence is promising.</p>\n\n<p>For wrinkles, we're still waiting for the paperwork.</p>\n\n<p>That is probably the fairest way to think about azelaic acid:</p>\n\n<p><strong>Not a miracle ingredient. Not snake oil. Just an ingredient that actually has some receipts.</strong></p>",
+    "refs": [
+      {
+        "authors": "King S, Campbell J, Rowe R, Daly ML, Moncrieff G, Maybury C",
+        "title": "A systematic review to evaluate the efficacy of azelaic acid in the management of acne, rosacea, melasma and skin aging.",
+        "journal": "Journal of cosmetic dermatology",
+        "year": "2023",
+        "pmid": "37550898",
+        "doi": ""
+      },
+      {
+        "authors": "Shucheng H, Zhou X, Du D, Li J, Yu C, Jiang X",
+        "title": "Effects of 15% Azelaic Acid Gel in the Management of Post-Inflammatory Erythema and Post-Inflammatory Hyperpigmentation in Acne Vulgaris.",
+        "journal": "Dermatology and therapy",
+        "year": "2024",
+        "pmid": "38734843",
+        "doi": ""
+      },
+      {
+        "authors": "Lowe NJ, Rizk D, Grimes P, Billips M, Pincus S",
+        "title": "Azelaic acid 20% cream in the treatment of facial hyperpigmentation in darker-skinned patients.",
+        "journal": "Clinical therapeutics",
+        "year": "1998",
+        "pmid": "9829446",
+        "doi": ""
+      },
+      {
+        "authors": "Kakita LS, Lowe NJ",
+        "title": "Azelaic acid and glycolic acid combination therapy for facial hyperpigmentation in darker-skinned patients: a clinical comparison with hydroquinone.",
+        "journal": "Clinical therapeutics",
+        "year": "1998",
+        "pmid": "9829447",
+        "doi": ""
+      },
+      {
+        "authors": "Albzea W, AlRashidi R, Alkandari D, Sadan M, Alkandari A, Alkanderi JJ, AlHajri MT, Almutairi SN, Alenzi A, Alanazi S, Al-Qurashi S, Alhajaji R, Al Shami A",
+        "title": "Azelaic Acid Versus Hydroquinone for Managing Patients With Melasma: Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+        "journal": "Cureus",
+        "year": "2023",
+        "pmid": "37457606",
+        "doi": "10.7759/cureus.41796"
+      },
+      {
+        "authors": "Sarkar R, Bhalla M, Kanwar AJ",
+        "title": "A comparative study of 20% azelaic acid cream monotherapy versus a sequential therapy in the treatment of melasma in dark-skinned patients.",
+        "journal": "Dermatology (Basel, Switzerland)",
+        "year": "2002",
+        "pmid": "12399672",
+        "doi": ""
+      }
+    ],
+    "products": []
+  }
 ];
 
 /* ─────────── ingredient index ─────────── */
